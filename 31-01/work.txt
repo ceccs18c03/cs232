@@ -1,0 +1,290 @@
+Script started on Friday 31 January 2020 11:22:35 AM IST
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ geedit [K\\\\[K[K[K[K[K[K[K[Kdit na[K[Ksort
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ sorty==[K[K[K -n sort
+
+0
+2
+3
+3
+4
+5
+6
+7
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ sort -n sort[2Pgedit[C[C[C[C[C[K[K[K[Kreport 
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ ^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ ^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ gedit report [1Psort -n sortgedit report [K^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ gedit report [1Psort -n sortk sort7 sort
+
+0
+2
+3
+3
+4
+5
+6
+7
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ sort -nk7 sort[1@r
+7
+6
+5
+4
+3
+3
+2
+0
+
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ sort -rnk7 sort[1P[C[C[C[C[C[C[C[C[1Pgedit report [1Psort -n sortgedit report 
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ gedit report sort -rnk7 sort[2Pgedit report [1P [1P [1P [1P [1P [1P a b h c . t x t [1P [1P [1P [1P [1P [1P x [1P c . t x t 
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ gedit abc.txt [K[K[K[K[K[K[K[K[K[K[K[K[K[Kcut -f3 abc.txt
+r
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ cut -f3 abc.txt[1P abc.txt- abc.txt3 abc.txt
+a	n	r
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ cut -f-3 abc.txt[C[1@1
+a	n	r
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ cut -f1-3 abc.txt[1P[C[C[C[C[C[C[C[C[C[C[1P[C- abc.txt
+r	o	l	e
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ ping 192.168.0.30
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+64 bytes from 192.168.0.30: icmp_req=9 ttl=64 time=1.11 ms
+64 bytes from 192.168.0.30: icmp_req=10 ttl=64 time=0.509 ms
+64 bytes from 192.168.0.30: icmp_req=11 ttl=64 time=0.490 ms
+64 bytes from 192.168.0.30: icmp_req=12 ttl=64 time=0.559 ms
+64 bytes from 192.168.0.30: icmp_req=13 ttl=64 time=0.587 ms
+64 bytes from 192.168.0.30: icmp_req=14 ttl=64 time=0.605 ms
+64 bytes from 192.168.0.30: icmp_req=15 ttl=64 time=0.610 ms
+64 bytes from 192.168.0.30: icmp_req=16 ttl=64 time=0.605 ms
+^C
+--- 192.168.0.30 ping statistics ---
+28 packets transmitted, 8 received, 71% packet loss, time 27062ms
+rtt min/avg/max/mdev = 0.490/0.634/1.113/0.188 ms
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ ping 192.168.0.30
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+64 bytes from 192.168.0.30: icmp_req=50 ttl=64 time=1.10 ms
+64 bytes from 192.168.0.30: icmp_req=51 ttl=64 time=0.595 ms
+64 bytes from 192.168.0.30: icmp_req=52 ttl=64 time=0.595 ms
+64 bytes from 192.168.0.30: icmp_req=53 ttl=64 time=0.600 ms
+64 bytes from 192.168.0.30: icmp_req=54 ttl=64 time=0.596 ms
+64 bytes from 192.168.0.30: icmp_req=55 ttl=64 time=0.561 ms
+64 bytes from 192.168.0.30: icmp_req=56 ttl=64 time=0.558 ms
+64 bytes from 192.168.0.30: icmp_req=57 ttl=64 time=0.548 ms
+64 bytes from 192.168.0.30: icmp_req=162 ttl=64 time=1.12 ms
+64 bytes from 192.168.0.30: icmp_req=163 ttl=64 time=0.622 ms
+64 bytes from 192.168.0.30: icmp_req=164 ttl=64 time=0.609 ms
+64 bytes from 192.168.0.30: icmp_req=165 ttl=64 time=0.593 ms
+64 bytes from 192.168.0.30: icmp_req=166 ttl=64 time=0.592 ms
+64 bytes from 192.168.0.30: icmp_req=167 ttl=64 time=0.589 ms
+64 bytes from 192.168.0.30: icmp_req=168 ttl=64 time=0.645 ms
+64 bytes from 192.168.0.30: icmp_req=169 ttl=64 time=0.602 ms
+64 bytes from 192.168.0.30: icmp_req=170 ttl=64 time=0.608 ms
+64 bytes from 192.168.0.30: icmp_req=171 ttl=64 time=0.598 ms
+64 bytes from 192.168.0.30: icmp_req=172 ttl=64 time=0.607 ms
+64 bytes from 192.168.0.30: icmp_req=173 ttl=64 time=0.626 ms
+64 bytes from 192.168.0.30: icmp_req=174 ttl=64 time=0.563 ms
+64 bytes from 192.168.0.30: icmp_req=175 ttl=64 time=0.571 ms
+64 bytes from 192.168.0.30: icmp_req=176 ttl=64 time=0.595 ms
+64 bytes from 192.168.0.30: icmp_req=177 ttl=64 time=0.544 ms
+64 bytes from 192.168.0.30: icmp_req=178 ttl=64 time=0.589 ms
+64 bytes from 192.168.0.30: icmp_req=179 ttl=64 time=0.598 ms
+^C
+--- 192.168.0.30 ping statistics ---
+182 packets transmitted, 26 received, 85% packet loss, time 180999ms
+rtt min/avg/max/mdev = 0.544/0.632/1.127/0.141 ms
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ ping 192.168.0.30
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+64 bytes from 192.168.0.30: icmp_req=30 ttl=64 time=1.08 ms
+64 bytes from 192.168.0.30: icmp_req=31 ttl=64 time=0.602 ms
+64 bytes from 192.168.0.30: icmp_req=32 ttl=64 time=0.599 ms
+64 bytes from 192.168.0.30: icmp_req=33 ttl=64 time=0.615 ms
+64 bytes from 192.168.0.30: icmp_req=34 ttl=64 time=0.621 ms
+64 bytes from 192.168.0.30: icmp_req=35 ttl=64 time=0.619 ms
+64 bytes from 192.168.0.30: icmp_req=36 ttl=64 time=0.638 ms
+64 bytes from 192.168.0.30: icmp_req=37 ttl=64 time=0.610 ms
+64 bytes from 192.168.0.30: icmp_req=38 ttl=64 time=0.589 ms
+64 bytes from 192.168.0.30: icmp_req=39 ttl=64 time=0.604 ms
+64 bytes from 192.168.0.30: icmp_req=40 ttl=64 time=0.587 ms
+64 bytes from 192.168.0.30: icmp_req=41 ttl=64 time=0.581 ms
+64 bytes from 192.168.0.30: icmp_req=42 ttl=64 time=0.583 ms
+64 bytes from 192.168.0.30: icmp_req=53 ttl=64 time=1.12 ms
+64 bytes from 192.168.0.30: icmp_req=54 ttl=64 time=0.605 ms
+64 bytes from 192.168.0.30: icmp_req=55 ttl=64 time=0.598 ms
+64 bytes from 192.168.0.30: icmp_req=56 ttl=64 time=0.603 ms
+64 bytes from 192.168.0.30: icmp_req=57 ttl=64 time=0.595 ms
+64 bytes from 192.168.0.30: icmp_req=58 ttl=64 time=0.626 ms
+64 bytes from 192.168.0.30: icmp_req=59 ttl=64 time=0.637 ms
+64 bytes from 192.168.0.30: icmp_req=60 ttl=64 time=0.621 ms
+64 bytes from 192.168.0.30: icmp_req=61 ttl=64 time=0.588 ms
+64 bytes from 192.168.0.30: icmp_req=62 ttl=64 time=0.628 ms
+64 bytes from 192.168.0.30: icmp_req=63 ttl=64 time=0.600 ms
+64 bytes from 192.168.0.30: icmp_req=64 ttl=64 time=0.611 ms
+64 bytes from 192.168.0.30: icmp_req=65 ttl=64 time=0.626 ms
+64 bytes from 192.168.0.30: icmp_req=66 ttl=64 time=0.587 ms
+64 bytes from 192.168.0.30: icmp_req=67 ttl=64 time=0.585 ms
+64 bytes from 192.168.0.30: icmp_req=68 ttl=64 time=0.602 ms
+64 bytes from 192.168.0.30: icmp_req=69 ttl=64 time=0.606 ms
+64 bytes from 192.168.0.30: icmp_req=70 ttl=64 time=0.405 ms
+64 bytes from 192.168.0.30: icmp_req=71 ttl=64 time=0.605 ms
+64 bytes from 192.168.0.30: icmp_req=72 ttl=64 time=0.615 ms
+64 bytes from 192.168.0.30: icmp_req=73 ttl=64 time=0.586 ms
+64 bytes from 192.168.0.30: icmp_req=74 ttl=64 time=0.625 ms
+^C
+--- 192.168.0.30 ping statistics ---
+79 packets transmitted, 35 received, 55% packet loss, time 77999ms
+rtt min/avg/max/mdev = 0.405/0.628/1.127/0.126 ms
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ ping 192.168.0.30[1Pcut -f3- abc.txt[1@1-3[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[1Pgedit abc.txt [1Prepor[C[Csort -rnk7 sort[1P[C[C[C[C[C[C[C[C[1Pgedit report [1Psort -n sort[2Pgedit[C[C[C[C[Creport1[5Pcd 31-01ls[Kscript work.txt[7Pcd cs232sc232ls[Kcd sc232ceccs18c03ssh cs18c03@192.168.0.30eccs18c03@192.168.0.30 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Ps18c03@192.168.0.30
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P cs18c03@192.168.0.30[1P cs18c03@192.168.0.30f cs18c03@192.168.0.30p cs18c03@192.168.0.30t cs18c03@192.168.0.30
+No command 'sfpt' found, did you mean:
+ Command 'xfpt' from package 'xfpt' (main)
+ Command 'sftp' from package 'openssh-client' (main)
+sfpt: command not found
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ ssh[K[K[Ksfpt cs18c03@192.168.0.30[8Pping 192.168.0.30[1Pcut -f3- abc.txt[1@1-3[C[C[C[C[C[C[C[C[1P3-[C[C[C[C[C[C[C[Cping 192.168.0.30sfpt cs18c03@192.168.0.30[8Pping 192.168.0.30[1Pcut -f3- abc.txt[1@1-3[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[1Pgedit abc.txt [1Prepor[C[Csort -rnk7 sort[1P[C[C[C[C[C[C[C[C[1Pgedit report [1Psort -n sort[2Pgedit[C[C[C[C[Creport1[5Pcd 31-01ls[Kscript work.txt[7Pcd cs232sc232ls[Kcd sc232ceccs18c03ssh cs18c03@192.168.0.30eccs18c03@192.168.0.30 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4.139.184.2115[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C92.168.0.30 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Ps18c03@192.168.0.30
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+^[[A^[[B^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ ssh cs18c03@192.168.0.30[1P192.168.0.30[1P192.168.0.30[1P192.168.0.30[1P192.168.0.30[1P192.168.0.30[1P92.168.0.30[1P192.168.0.30[1P192.168.0.30
+ssh: connect to host 192.168.0.30 port 22: Connection timed out
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ fst[K[K[Kif config -a
+> if config etho 193[K2.168.0,[K.20
+> route
+> route add default gw 192.168.1.1
+> iwconfig
+> dhclinent usbo
+> tcpdumb[Kp -i etho
+> ping
+> if [Kup
+> ifdown
+> 
+> if config -a; if config etho 192.168.0.20; route; route add default gw 192.168..1.1; iwconfig; dhclinent usbo; tcpdump -i etho; ping; ifup; ifdown; 
+> 
+> 
+> if config -a; if config etho 192.168.0.20; route; route add default gw 192.168..1.1; iwconfig; dhclinent usbo; tcpdump -i etho; ping; ifup; ifdown;  if config --a; if config etho 192.168.0.20; route; route add default gw 192.168.1.1; iwconfiig; dhclinent usbo; tcpdump -i etho; ping; ifup; ifdown; [A[A[A[C[C[K
+[K
+[K
+[K[A[A[A[C[Cif config -a; if config etho 192.168.0.20; route; route add default gw 192.168..1.1; iwconfig; dhclinent usbo; tcpdump -i etho; ping; ifup; ifdown;  if config --a; if config etho 192.168.0.20; route; route add default gw 192.168.1.1; iwconfiig; dhclinent usbo; tcpdump -i etho; ping; ifup; ifdown; [A[A[A[C[Cssh 192.168.0.30[K
+[K
+[K
+[K[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs18c03@192.168.0.30[C[C[C[C[C[C[8P192.168.0.30[C[C[C[C[C[Ccs18c03@192.168.0.30[C[C[C[1@fpt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pping 192.168.0.30[C[C[1Pcut -f3- abc.txt[C[C[C[C[C[C[C[C[1@1-3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P3-[C[C[C[C[C[C[C[C[C[Cping 192.168.0.30[C[Csfpt cs18c03@192.168.0.30[C[C[C[1Psh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmk dir
+> cd
+> 
+> 
+> ^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ if config -a; if config ethoo 192.168.0.20; route; route add default gw 192.168.1.1; iwconfig; dhclinent usboo; tcpdump -i etho; ping; ifup; ifdown;  if config -a; if config etho 192.168.0.220; route; route add default gw 192.168.1.1; iwconfig; dhclinent usbo; tcpdump -ii etho; ping; ifup; ifdown;  mk dir; cd; [A[A[A[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ [11Pssh 192.168.0.30
+[K
+[K
+[K
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs18c03@192.168.0.30[1@fpt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+No command 'sfpt' found, did you mean:
+ Command 'xfpt' from package 'xfpt' (main)
+ Command 'sftp' from package 'openssh-client' (main)
+sfpt: command not found
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ sfpt cs18c03@192.168.0.30if config -a; if config ethoo 192.168.0.20; route; route add default gw 192.168.1.1; iwconfig; dhclinent usboo; tcpdump -i etho; ping; ifup; ifdown;  if config -a; if config etho 192.168.0.220; route; route add default gw 192.168.1.1; iwconfig; dhclinent usbo; tcpdump -ii etho; ping; ifup; ifdown;  mk dir; cd; [A[A[A[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ [11Pssh 192.168.0.30
+[K
+[K
+[K
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs18c03@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c03@192.168.0.30's password: 
+
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ ^V[K^[[Assh cs18c03@192.168.0.30[1@fpt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cif config -a; if config ethoo 192.168.0.20; route; route add default gw 192.168.1.1; iwconfig; dhclinent usboo; tcpdump -i etho; ping; ifup; ifdown;  if config -a; if config etho 192.168.0.220; route; route add default gw 192.168.1.1; iwconfig; dhclinent usbo; tcpdump -ii etho; ping; ifup; ifdown;  mk dir; cd; [A[A[A[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ [11Pssh 192.168.0.30
+[K
+[K
+[K
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs18c03@192.168.0.30[1@fpt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pping 192.168.0.30[1Pcut -f3- abc.txt[1@1-3[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[1Pgedit abc.txt cut -f3 abc.txt[1@-[C[C[C[C[C[C[C[C[C[1@1[C[C[C[C[C[C[C[C[C[C[1P3-[C[C[C[C[C[C[C[Cping 192.168.0.30sfpt cs18c03@192.168.0.30[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kif com[Knfig -1[Ka
+> if config -a
+> if config -a; if config -a^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ if config -a; if config -a[2Pssh cs18c03@192.168.0.30if config -a; if config -a[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ka
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> ^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ 0if config -a; [1P
+eth0      Link encap:Ethernet  HWaddr 00:15:58:19:23:0b  
+          inet addr:192.168.0.225  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::215:58ff:fe19:230b/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:195085 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:15352 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:36577342 (36.5 MB)  TX bytes:2656848 (2.6 MB)
+          Interrupt:17 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1048 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1048 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:75688 (75.6 KB)  TX bytes:75688 (75.6 KB)
+
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ ifconfig -a; [1@ [C[C[C[C[C[C[C[C[C[C[Cif config -a[2Pssh cs18c03@192.168.0.30[1@fpt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cif config -a; if config ethoo 192.168.0.20; route; route add default gw 192.168.1.1; iwconfig; dhclinent usboo; tcpdump -i etho; ping; ifup; ifdown;  if config -a; if config etho 192.168.0.220; route; route add default gw 192.168.1.1; iwconfig; dhclinent usbo; tcpdump -ii etho; ping; ifup; ifdown;  mk dir; cd; [A[A[A[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ [11Pssh 192.168.0.30
+[K
+[K
+[K
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs18c03@192.168.0.30[1@fpt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pping 192.168.0.30[1Pcut -f3- abc.txt[1@1-3[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[1Pgedit abc.txt [1Prepor[C[Csort -rnk7 sort[1P[C[C[C[C[C[C[C[C[1Pgedit report [1Psort -n sort[2Pgedit[C[C[C[C[Creport1[5Pcd 31-01ls[Kscript work.txt[7Pcd cs232\[K[K[K[K[K[K[K[K[Kroute -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 eth0
+192.168.0.0     0.0.0.0         255.255.255.0   U     1      0        0 eth0
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ ^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ route add
+Usage: inet_route [-vF] del {-host|-net} Target[/prefix] [gw Gw] [metric M] [[dev] If]
+       inet_route [-vF] add {-host|-net} Target[/prefix] [gw Gw] [metric M]
+                              [netmask N] [mss Mss] [window W] [irtt I]
+                              [mod] [dyn] [reinstate] [[dev] If]
+       inet_route [-vF] add {-host|-net} Target[/prefix] [metric M] reject
+       inet_route [-FC] flush      NOT supported
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ ^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ route add[1P-nifconfig -a; [1@ [C[C[C[C[C[C[C[C[C[C[Cif config -a[2Pssh cs18c03@192.168.0.30[1@fpt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cif config -a; if config ethoo 192.168.0.20; route; route add default gw 192.168.1.1; iwconfig; dhclinent usboo; tcpdump -i etho; ping; ifup; ifdown;  if config -a; if config etho 192.168.0.220; route; route add default gw 192.168.1.1; iwconfig; dhclinent usbo; tcpdump -ii etho; ping; ifup; ifdown;  mk dir; cd; [A[A[A[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ [11Pssh 192.168.0.30
+[K
+[K
+[K
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cif config -a; if config ethoo 192.168.0.20; route; route add default gw 192.168.1.1; iwconfig; dhclinent usboo; tcpdump -i etho; ping; ifup; ifdown;  if config -a; if config etho 192.168.0.220; route; route add default gw 192.168.1.1; iwconfig; dhclinent usbo; tcpdump -ii etho; ping; ifup; ifdown;  mk dir; cd; [A[A[A[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ [11Pssh 192.168.0.30
+[K
+[K
+[K
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kroute add default gw 192.16 8.1.1
+SIOCADDRT: Operation not permitted
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ c atr[K[K[K[K[Kcat/etc/resolve.comf[K[Knf
+bash: cat/etc/resolve.conf: No such file or directory
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ cat/etc/resolve.confroute add default gw 192.1688.1.1[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ [C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P-nifconfig -a; [1@ [C[C[C[C[C[C[C[C[C[C[Cif config -a[2Pssh cs18c03@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c03@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Fri Jan 31 11:05:38 2020 from 192.168.0.225
+$ Connection to 192.168.0.30 closed by remote host.
+Connection to 192.168.0.30 closed.
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ ssh cs18c03@192.168.0.30
+ssh: connect to host 192.168.0.30 port 22: No route to host
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ giti[K im[Knit
+Initialized empty Git repository in /home/s4c1/ceccs18c03/cs232/31-01/.git/
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ git pull http://github.com/ ceccs18cxx/cs232
+Username for 'http://github.com': ^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ git pull http://github.com/cceccs18cxx/cs232[1P/cs232[1P/cs2320/cs2323/cs232[C[C[C[C[C[C
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+From http://github.com/ceccs18c03/cs232
+ * branch            HEAD       -> FETCH_HEAD
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ git pull http://github.com/cceccs18c03/cs232[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cithub.com/ce[1Pccs18c03/cs232[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cithub.com/cec[C[1Ps18c03/cs232[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cithub.com/cecc[1Ps18c03/cs232[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Cithub.com/ceccs[1P18c03/cs232[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ [C[C[C[C[C[C[C[C[C[C[C[C[Cithub.com/ceccs1[1P8c03/cs232[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ [C[C[C[C[C[C[C[C[C[C[C[Cithub.com/ceccs18[1Pc03/cs232[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ [C[C[C[C[C[C[C[C[C[C[Cithub.com/ceccs18c[1P03/cs232[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ [C[C[C[C[C[C[C[C[C[Cithub.com/ceccs18c0[1P3/cs232[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/31-01s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ [C[C[C[C[C[C[C[C[Cithub.com/ce

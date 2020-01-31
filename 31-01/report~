@@ -1,0 +1,260 @@
+CEC CS 18 003 
+Adhil shahanad k k
+24-01-2020
+--------------------------------
+
+
+#1: Aim/task
+---------------------------------
+familiarisation of Linux basic commands
+
+
+Command/Shell script/Program name
+---------------------------------
+1.sorting
+		1.sort -n fn
+		2.sort -nk7 fn
+		3.sort -rnk7 fn
+
+
+Input: (If relevant)
+---------------
+1.sort -n fn		
+		#unsorted file
+		4
+		7
+		3
+		0
+		3
+		2
+		5
+		6
+
+2.2.sort -nk7 fn
+
+		#unsorted file
+		4
+		7
+		3
+		0
+		3
+		2
+		5
+		6
+
+3.sort -rnk7 fn
+		#unsorted file
+		4
+		7
+		3
+		0
+		3
+		2
+		5
+		6
+
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+1.sort -n fn
+		#sorted file
+0
+2
+3
+3
+4
+5
+6
+7
+
+
+2.2.sort -nk7 fn
+
+0
+2
+3
+3
+4
+5
+6
+7
+
+
+3.sort -rnk7 fn
+
+7
+6
+5
+4
+3
+3
+2
+0
+
+-------------------
+Remarks if any:
+
+1.normal sorting (ascending order)
+3.descending order report
+
+
+
+-------------------------------------
+-------------------------------------
+
+
+
+#2: Aim/task
+---------------------------------
+familiarisation of Linux basic commands
+
+
+Command/Shell script/Program name
+---------------------------------
+1.cut# Unsorted file 
+	abc.txt 
+		1.cut -f3 fn
+		2.cut -f-3
+		3.cut f1-3
+		4.cut f3-
+
+Input: (If relevant)
+---------------
+1.cut -f3 fn
+	# Unsorted file 
+	abc.txt 
+
+2.cut -f-3
+	# Unsorted file 
+	abc.txt 
+
+
+3.cut f1-3
+	# Unsorted file 
+	abc.txt 
+
+
+4.cut f3-
+	# Unsorted file 
+	abc.txt 
+
+
+Output: or Input & Output (whichever is applicable)
+---------------
+1.cut -f3 fn
+	r	
+
+2.cut -f-3
+	a	n	r
+
+3.cut f1-3
+	a	n	r
+4.cut f3-
+
+	r	o	l	e
+
+-------------------
+Remarks if any:
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+#3: Aim/task
+ Networking tasks (t3)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+	ifconfig -a
+	route -n
+	route add default gw 192.168.0.2
+	ping 192.168.0.1 		
+	cat /etc/resolv.conf
+	echo "nameserver 1.1.1.1" >> resolv.conf
+	
+
+--------------------------------
+Output: 
+
+	
+
+
+	# ifconfig -a displays all available network interfaces
+	
+
+
+	eth0      Link encap:Ethernet  HWaddr 00:15:58:19:23:0b  
+          inet addr:192.168.0.225  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::215:58ff:fe19:230b/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:195085 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:15352 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:36577342 (36.5 MB)  TX bytes:2656848 (2.6 MB)
+          Interrupt:17 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1048 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1048 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:75688 (75.6 KB)  TX bytes:75688 (75.6 KB)
+
+
+		
+	
+	# route -n displays kernal routing table
+	
+
+
+	Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 eth0
+192.168.0.0     0.0.0.0         255.255.255.0   U     1      0        0 eth0
+s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ ^C
+
+	
+	# route add, is used add a new route to the table,
+
+	
+
+	Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 eth0
+192.168.0.0     0.0.0.0         255.255.255.0   U     1      0        0 eth0
+s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/31-01$ ^C
+
+	
+
+	# route add default gw 192.168.0.2, a default gateway in this case
+
+	
+
+	# echo "nameserver 1.1.1.1" >> /etc/resolv.conf
+	
+	# to add 1.1.1.1 (1.1.1.1 is the DNS of Cloudflare) to system domain resolver configuration
+
+-------------------
+Remarks if any:
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+
+
+
+
+#3: 
+---------------------------------
+
+#4:
