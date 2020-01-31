@@ -1,0 +1,127 @@
+CEC cs 18 c003	24-01-2020
+Adhil shahanad k k
+
+
+--------------------------------
+#1: Sort a text file
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+	sort -dr abc.txt > sorted.txt
+
+
+Input: 
+---------------
+
+	# Unsorted file 
+	abc.txt 	
+
+--------------------------------
+Output: 
+
+	# Sorted file
+	sorted.txt
+
+-------------------
+Remarks if any:
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+#2: Number the lines of textfile
+
+Command/Shell script/Program name
+---------------------------------
+
+	awk '{print NR  ". " $s}' 
+
+
+Input: 
+---------------
+
+	# Sorted file from #1
+	sorted.txt	
+
+--------------------------------
+Output: 
+
+	# text file with lines numbered
+	numbered.txt
+
+-------------------
+Remarks if any:
+
+
+-------------------------------------
+-------------------------------------
+
+#3: Familiarisation of Miscellaneous commands
+
+Command/Shell script/Program name
+---------------------------------
+
+	uname -a
+	free -h
+	wget 192.168.0.30
+	head -n 11 index.html
+	whoami 
+
+--------------------------------
+Output: 
+	
+	# wget fetches the HTML file
+	index.html	
+	
+	# head prints the 'n' lines from the top
+	
+	# whoami prints the current user
+
+-------------------
+Remarks if any:
+
+
+-------------------------------------
+-------------------------------------
+
+
+#4: Exploring Further
+
+Command/Shell script/Program name
+---------------------------------
+
+	ps
+	ps aux	
+	kill -9 7478	
+	service apache start	
+	history	
+	ping 8.8.8.8	
+	ping 192.168.0.30	
+
+--------------------------------
+Output: 
+	
+	# ps command prints the current processes.
+	
+	# The kill command kills the process with PID 7478.	
+	
+	# The Service command was meant to start the apache service But user didn't have the privileges
+	
+	# shows the the history of commands used
+	
+	# The ping command is used to check the response of a server. (Here 8.8.8.8 is Google DNS) but the Network is not available due to proxy settings, meanwhile It works well with an IP in the LAN.
+	
+-------------------
+Remarks if any:
+
+
+-------------------------------------
+-------------------------------------
+
+
+#5:
+
