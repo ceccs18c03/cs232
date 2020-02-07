@@ -1,0 +1,1016 @@
+Script started on Friday 07 February 2020 04:00:23 PM IST
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ exitstop[2Pls[K[Kpdfto =[K[Ktetx[K[Kxt result.txt
+Error: Couldn't open file 'result.txt': No such file or directory.
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ pdftotext result.txt[C[K[K[Kpdf
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ ls
+result.pdf  result.txt  work.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ grep --no-gre[Koup-seperator -A3 ""C"H"N"1"8"C"S"[C[K]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ grep --no-group-seperator -A3 "CHN18CS" result.txt>res ult.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C >res[1@u[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C re[1@s[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+grep: unrecognized option '--no-group-seperator'
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try `grep --help' for more information.
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ grep information
+^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ grep information[K[K[K[K[K[K[K[K[K[K[K[K --help
+Usage: grep [OPTION]... PATTERN [FILE]...
+Search for PATTERN in each FILE or standard input.
+PATTERN is, by default, a basic regular expression (BRE).
+Example: grep -i 'hello world' menu.h main.c
+
+Regexp selection and interpretation:
+  -E, --extended-regexp     PATTERN is an extended regular expression (ERE)
+  -F, --fixed-strings       PATTERN is a set of newline-separated fixed strings
+  -G, --basic-regexp        PATTERN is a basic regular expression (BRE)
+  -P, --perl-regexp         PATTERN is a Perl regular expression
+  -e, --regexp=PATTERN      use PATTERN for matching
+  -f, --file=FILE           obtain PATTERN from FILE
+  -i, --ignore-case         ignore case distinctions
+  -w, --word-regexp         force PATTERN to match only whole words
+  -x, --line-regexp         force PATTERN to match only whole lines
+  -z, --null-data           a data line ends in 0 byte, not newline
+
+Miscellaneous:
+  -s, --no-messages         suppress error messages
+  -v, --invert-match        select non-matching lines
+  -V, --version             print version information and exit
+      --help                display this help and exit
+      --mmap                ignored for backwards compatibility
+
+Output control:
+  -m, --max-count=NUM       stop after NUM matches
+  -b, --byte-offset         print the byte offset with output lines
+  -n, --line-number         print line number with output lines
+      --line-buffered       flush output on every line
+  -H, --with-filename       print the file name for each match
+  -h, --no-filename         suppress the file name prefix on output
+      --label=LABEL         use LABEL as the standard input file name prefix
+  -o, --only-matching       show only the part of a line matching PATTERN
+  -q, --quiet, --silent     suppress all normal output
+      --binary-files=TYPE   assume that binary files are TYPE;
+                            TYPE is `binary', `text', or `without-match'
+  -a, --text                equivalent to --binary-files=text
+  -I                        equivalent to --binary-files=without-match
+  -d, --directories=ACTION  how to handle directories;
+                            ACTION is `read', `recurse', or `skip'
+  -D, --devices=ACTION      how to handle devices, FIFOs and sockets;
+                            ACTION is `read' or `skip'
+  -R, -r, --recursive       equivalent to --directories=recurse
+      --include=FILE_PATTERN  search only files that match FILE_PATTERN
+      --exclude=FILE_PATTERN  skip files and directories matching FILE_PATTERN
+      --exclude-from=FILE   skip files matching any file pattern from FILE
+      --exclude-dir=PATTERN  directories that match PATTERN will be skipped.
+  -L, --files-without-match  print only names of FILEs containing no match
+  -l, --files-with-matches  print only names of FILEs containing matches
+  -c, --count               print only a count of matching lines per FILE
+  -T, --initial-tab         make tabs line up (if needed)
+  -Z, --null                print 0 byte after FILE name
+
+Context control:
+  -B, --before-context=NUM  print NUM lines of leading context
+  -A, --after-context=NUM   print NUM lines of trailing context
+  -C, --context=NUM         print NUM lines of output context
+  -NUM                      same as --context=NUM
+      --color[=WHEN],
+      --colour[=WHEN]       use markers to highlight the matching strings;
+                            WHEN is `always', `never', or `auto'
+  -U, --binary              do not strip CR characters at EOL (MSDOS)
+  -u, --unix-byte-offsets   report offsets as if CRs were not there (MSDOS)
+
+`egrep' means `grep -E'.  `fgrep' means `grep -F'.
+Direct invocation as either `egrep' or `fgrep' is deprecated.
+With no FILE, or when FILE is -, read standard input.  If less than two FILEs
+are given, assume -h.  Exit status is 0 if any line was selected, 1 otherwise;
+if any error occurs and -q was not given, the exit status is 2.
+
+Report bugs to: bug-grep@gnu.org
+GNU Grep home page: <http://www.gnu.org/software/grep/>
+General help using GNU software: <http://www.gnu.org/gethelp/>
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [K]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ grep --helpinformation--no-group-sepeerator -A3 "CHN18CS" result.txt > result.txt 
+grep: unrecognized option '--no-group-seperator'
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try `grep --help' for more information.
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ grep --no-group-sepeerator -A3 "CHN18CS" result.txt > result.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ grep --no-group-seperator -A3 "CHNN18CS" result.txt > result.txt [A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crator -A3 "CHN1[1P[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Carator -A3 "CHN[1@1[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+grep: input file `result.txt' is also the output
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit result [K.xt=[K[K[Ktxt
+^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit result.txtrep --no-group-separator -A3 "CHNN18CS" result.txt > result.txt [K[K[K[K[K[K[K[K[K[K[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [C[17Pedit result.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+result.pdf  result.txt  work.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ result.txt
+result.txt: command not found
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ ^V[Ktr '\n' ' ' < result_cs.txt > res ult_nn.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ tr '\n' ' ' < result_cs.txt > resuult_nn.txt[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cresult.txt[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[Klsgedit result.txtrep --no-group-separator -A3 "CHNN18CS" result.txt > r[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cesult.txt [A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [C[C[C[C[C[C[Chelp[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinformation--no-group-seperator -A3 "CHNN18CS" result.txt > result.txt [A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpdftotext result.pdftxtexit[Kpdftotext result.txt
+Error: May not be a PDF file (continuing anyway)
+Error: PDF file is damaged - attempting to reconstruct xref table...
+Error: Couldn't find trailer dictionary
+Error: Couldn't read xref table
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ pdftotext result.txt[Klsgedit result.txtrep --no-group-separator -A3 "CHNN18CS" result.txt > r[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cesult.txt [A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [C[C[C[C[C[C[Chelp[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinformation--no-group-seperator -A3 "CHNN18CS" result.txt > result.txt [A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpdftotext result.pdf
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit result.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit result.txtpdftotext result.pdftxt[Klsgedit result.txtrep --no-group-separator -A3 "CHNN18CS" result.txt > r[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[K[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ grep --no-group-separator -A3 "CHN18CS" result.txt > r[K]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ grep --no-group-separator -A3 "CHN18CS" result.txt > r[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cesult.cs.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ ls
+result.cs.txt  result.pdf  result.txt  work.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ reslu[K[Kult.cs.txt
+result.cs.txt: command not found
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ result.cs.txtgresult.cs.txteresult.cs.txtdresult.cs.txtiresult.cs.txttresult.cs.txt result.cs.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ tr '\n' ' ' < result_cs.txt > result_nn.txt
+bash: result_cs.txt: No such file or directory
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ tr '\n' ' ' < result_cs.txt > result_nn.txt[1P[1@.
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ ls
+result.cs.txt  result_nn.txt  result.pdf  result.txt  work.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ sed 's/\t//g' result_nn.txt > result_na.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit sed 's/\t//g' result_nn.txt > result_na.txtgedit [Ker[K[Kresult_na.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ awk '{$1=$1;print}' result_na.txt > result_nn.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ awk '{$1=$1;print}' result_na.txt > result_nn.txt[30Pgedit result_na.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit result_na.txtawk '{$1=$1;print}' result_na.txt > result_nn.txt[30Pgedit result_na.txt[Ksed 's/CHN/\nCHN/g' result_nn.txt > result_na.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ sed 's/CHN/\nCHN/g' result_nn.txt > result_na.txt[30Pgedit[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit result_na.txt[30@sed 's/CHN/\nCHN/g' result_nn.txt >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktr  ',' ' ' < result_na.txt > result.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ tr  ',' ' ' < result_na.txt > result.txt[21Pgedit result_na.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ sed -i 's/(O)/ 10/g' result.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ ^V[Ksed -i 's/(A+)/ 9/g' result.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ sed -i 's/(A)/ 8.5/g' result.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ sed -i 's/(A)/ 8.5/g' result.txt[1P+)/ 9[C[C[C[C[C[C[C[C[C[C[C[C[C[CO)/ 10[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgedit result.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ sed -i 's/(B+)/8/g' 8/g'[C[C[C[C resulty[K.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ sed -i 's/(B+)/ 8/g' result.txt[C[1P[1@7[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ sed -i 's/(B)/ 7/g' result.txt[1P[1@6[1P[1@c
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ sed -i 's/(c)/ 6/g' result.txt[1P[1@5[C[1P[1@p
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ sed -i 's/(p)/ 5/g' result.txt[1P[1@f[C[C[C[C[1P[1@0
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ sed -i 's/(f)/ 0/g' result.txt[1P[1@p)/ 5[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc)/ 6[C[C[C[C[C[C[C[C[C[C[C[C[C[CB)/ 7[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@+)/ 8[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pgedit[C[C[C[C[C[C[C[C[C[C[C[16@sed -i 's/(A)/ 8.5/g'[C[C[C[C[C[C[C[C[C[C[C[1P+)/ 9[C[C[C[C[C[C[C[C[C[C[C[C[C[CO)/ 10[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pgedit result_na.txttr  ',' ' ' < result_na.txt > result.txt[21Pgedit result_na.txtsed -i 's/(O)/ 10/g' result.txt[12Pgedit result_na.txtsed -i 's/(O)/ 10/g' result.txtA+)/ 9[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@)/ 8.5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pgedit[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit result.txt[13@sed -i 's/()/ 0/g'[C[C[C[C[C[C[C[C[C[C[C[1@p)/ 5[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc)/ 6[C[C[C[C[C[C[C[C[C[C[C[C[C[CB)/ 7[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@+)/ 8[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pgedit[C[C[C[C[C[C[C[C[C[C[C[16@sed -i 's/(A)/ 8.5/g'[C[C[C[C[C[C[C[C[C[C[C[16Pgedit[C[C[C[C[C[C[C[C[C[C[C[16@sed -i 's/(A)/ 8.5/g'[C[C[C[C[C[C[C[C[C[C[C[1P+)/ 9[C[C[C[C[C[C[C[C[C[C[C[C[C[CO)/ 10[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pgedit result_na.txttr  ',' ' ' < result_na.txt > result.txt[21Pgedit result_na.txtsed -i 's/(O)/ 10/g' result.txtA+)/ 9[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@)/ 8.5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pgedit[C[C[C[C[C[C[C[C[C[C[C[15@sed -i 's/(B+)/ 8/g'[C[C[C[C[C[C[C[C[C[C[C[1P)/ 7[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc)/ 6[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp)/ 5[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc)/ 6[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ sed -i 's/(C)/ 6/g' result.txt[14Pgedit[C[C[C[C[C[C[C[C[C[C[C[13@sed -i 's/()/ 0/g'[C[C[C[C[C[C[C[C[C[C[C[1@p)/ 5[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc)/ 6[C[C[C[C[C[C[C[C[C[C[C[C[C[CB)/ 7[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc)/ 6[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp)/ 5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@P
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ sed -i 's/(P)/ 5/g' result.txtC)/ 6[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pgedit[C[C[C[C[C[C[C[C[C[C[C[14@sed -i 's/(C)/ 6/g'[C[C[C[C[C[C[C[C[C[C[CP)/ 5[C[C[C[C[C[C[C[C[C[C[C[C[C[CC)/ 6[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pgedit[C[C[C[C[C[C[C[C[C[C[C[13@sed -i 's/()/ 0/g'[C[C[C[C[C[C[C[C[C[C[C[1@p)/ 5[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc)/ 6[C[C[C[C[C[C[C[C[C[C[C[C[C[CB)/ 7[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@+)/ 8[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pgedit[C[C[C[C[C[C[C[C[C[C[C[16@sed -i 's/(A)/ 8.5/g'[C[C[C[C[C[C[C[C[C[C[C[1P+)/ 9[C[C[C[C[C[C[C[C[C[C[C[C[C[CO)/ 10[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pgedit result_na.txttr  ',' ' ' < result_na.txt > result.txt[21Pgedit result_na.txtsed -i 's/(O)/ 10/g' result.txtA+)/ 9[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@)/ 8.5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pgedit[C[C[C[C[C[C[C[C[C[C[C[15@sed -i 's/(B+)/ 8/g'[C[C[C[C[C[C[C[C[C[C[C[1P)/ 7[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc)/ 6[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp)/ 5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P)/ 0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pgedit[C[C[C[C[C[C[C[C[C[C[C[14@sed -i 's/(C)/ 6/g'[C[C[C[C[C[C[C[C[C[C[CP)/ 5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksed -i 's/(P)/ 5/g' result.txt[Ksed -i 's/(P)/ 5/g' result.txtC)/ 6[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pgedit[C[C[C[C[C[C[C[C[C[C[C[14@sed -i 's/(C)/ 6/g'[C[C[C[C[C[C[C[C[C[C[CP)/ 5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@0[1P[1@F
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit result.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit result.txt[14@sed -i 's/(F)/ 0/g'[C[C[C[C[C[C[C[C[C[C[C[1@e[1P[1@E
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ sed -i 's/(FE)/ 0/g' result.txt[1P[1P[1@I
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ sed -i 's/(I)/ 0/g' result.txt[1P[1@a[1@b[1P[1P[1@A[1@b[1@s[1@e[1@n[1@t
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit result.txt
+
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ 
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit result.txt[19@sed -i 's/(Absent)/ 0/g'[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kawk  '{  
+> print $1,$3,$5,$7,$9,$11,$13,$15,$17,$19
+>  }' result.txt > gp.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ g[Kls
+gp.txt  result.cs.txt  result_na.txt  result_nn.txt  result.pdf  result.txt  work.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gp.txt
+gp.txt: command not found
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gp.txt[Cgp.txtegp.txtdgp.txtigp.txttgp.txt gp.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit gp.txt[1Pp.txt[Co.txti.txtn.txtt.txt[9Pp.txt[4Plsawk  '{  
+print $1,$3,$5,$7,$9,$11,$13,$15,$17,$19
+ }' result.txt > gp.txt[1P.txt[1P.txtp.txto.txti.txtn.txtt.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ awk  '{  
+print $1,$3,$5,$7,$9,$11,$13,$15,$17,$19
+ }' result.txt > point.txt[A[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit point.txt
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pp.txt[4Plsgp.txt[4Plsawk  '{  
+print $1,$3,$5,$7,$9,$11,$13,$15,$17,$19
+ }' result.txt > gp.txt[A[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ ls[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgp.txt[K[K[K[K[K[Kgedit [K[K[K[K[K[Kawk '{
+> sum = 0
+> flag = 0
+> fails = 0
+> for(var =2; var<=NF; var++)
+> {
+> 
+gp.txt         point.txt      result.cs.txt  result_na.txt  result_nn.txt  result.pdf     result.txt     work.txt       
+> if($var == 0) 
+> 
+gp.txt         point.txt      result.cs.txt  result_na.txt  result_nn.txt  result.pdf     result.txt     work.txt       
+> {
+> 
+gp.txt         point.txt      result.cs.txt  result_na.txt  result_nn.txt  result.pdf     result.txt     work.txt       
+> 
+gp.txt         point.txt      result.cs.txt  result_na.txt  result_nn.txt  result.pdf     result.txt     work.txt       
+> flag = 1
+> 
+gp.txt         point.txt      result.cs.txt  result_na.txt  result_nn.txt  result.pdf     result.txt     work.txt       
+> 
+gp.txt         point.txt      result.cs.txt  result_na.txt  result_nn.txt  result.pdf     result.txt     work.txt       
+> fails = fails + 1
+> 
+gp.txt         point.txt      result.cs.txt  result_na.txt  result_nn.txt  result.pdf     result.txt     work.txt       
+> }
+> 
+gp.txt         point.txt      result.cs.txt  result_na.txt  result_nn.txt  result.pdf     result.txt     work.txt       
+> sum += $var
+> }
+> cgpa = sum/9
+> if (flag == 0) {
+>  printf("%s %0.2f\n",$1,cgpa)
+> }
+> if (flag == 1) {
+> 
+gp.txt         point.txt      result.cs.txt  result_na.txt  result_nn.txt  result.pdf     result.txt     work.txt       
+> printf("%s failed in %d\n",$1,fails)
+> }
+> }' gp.txt > cgpa_raw.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ awk '{
+sum = 0
+flag = 0
+fails = 0
+for(var =2; var<=NF; var++)
+{
+if($var == 0) 
+{
+flag = 1
+fails = fails + 1
+}
+sum += $var
+}
+cgpa = sum/9
+if (flag == 0) {
+ printf("%s %0.2f\n",$1,cgpa)
+}
+if (flag == 1) {
+printf("%s failed in %d\n",$1,fails)
+}
+}' gp.txt > cgpa_raw.txt[1P[1P[1@p[1@o[1@i[1@n[1@t[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.txt[1P.txt[1P.txt[1P.txt[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [C[C[C[C '{  
+print $1,$3,$5,$7,$9,$11,$13,$15,$17,$19
+ }' result.txt > point.txt
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit point.txt
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[Kgp-raw[K[K[K[K_raw.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit gp_raw.txt[Ccgp_raw.txt[Kgedit cgp_raw.txt[C[Ca_raw.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit cgpa_raw.txt[2Pgp_raw.txt[10Pawk '{
+sum = 0
+flag = 0
+fails = 0
+for(var =2; var<=NF; var++)
+{
+if($var == 0) 
+{
+flag = 1
+fails = fails + 1
+}
+sum += $var
+}
+cgpa = sum/9
+if (flag == 0) {
+ printf("%s %0.2f\n",$1,cgpa)
+}
+if (flag == 1) {
+printf("%s failed in %d\n",$1,fails)
+}
+}' point.txt > cgpa.txt[C[C[C[C[C[C[C-.txt[1P.txt_.txt1.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ awk '{
+sum = 0
+flag = 0
+fails = 0
+for(var =2; var<=NF; var++)
+{
+if($var == 0) 
+{
+flag = 1
+fails = fails + 1
+}
+sum += $var
+}
+cgpa = sum/9
+if (flag == 0) {
+ printf("%s %0.2f\n",$1,cgpa)
+}
+if (flag == 1) {
+printf("%s failed in %d\n",$1,fails)
+}
+}' point.txt > cgpa_1.txt[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgedit [K[K[K[K[K[Kawk '{
+sum = 0
+flag = 0
+fails = 0
+for(var =2; var<=NF; var++)
+{
+if($var == 0) 
+{
+flag = 1
+fails = fails + 1
+}
+sum += $var
+}
+cgpa = sum/9
+if (flag == 0) {
+ printf("%s %0.2f\n",$1,cgpa)
+}
+if (flag == 1) {
+printf("%s failed in %d\n",$1,fails)
+}
+}' point.txt > cgpa_1.txt[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit cgpa_raw.txt
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpdftotext s4c.pdf
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [K]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ grep --no.[K-grp[Koupo[K-sepera[K[K[Karator -A3 ""C" [A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CH""N"!"*"C"S"[1P"[1P"[1P"[1P"[1P"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CH""N"[1P"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[C[K[K[K[Kpdftotext s4c.pdf[11Pawk '{
+sum = 0
+flag = 0
+fails = 0
+for(var =2; var<=NF; var++)
+{
+if($var == 0) 
+{
+flag = 1
+fails = fails + 1
+}
+sum += $var
+}
+cgpa = sum/9
+if (flag == 0) {
+ printf("%s %0.2f\n",$1,cgpa)
+}
+if (flag == 1) {
+printf("%s failed in %d\n",$1,fails)
+}
+}' point.txt > cgpa_1.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit cgpa_raw.txt
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.txt[1P.txt[1P.txt1.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit cgpa_1.txtpdftotext s4c.pdf[11Pawk '{
+sum = 0
+flag = 0
+fails = 0
+for(var =2; var<=NF; var++)
+{
+if($var == 0) 
+{
+flag = 1
+fails = fails + 1
+}
+sum += $var
+}
+cgpa = sum/9
+if (flag == 0) {
+ printf("%s %0.2f\n",$1,cgpa)
+}
+if (flag == 1) {
+printf("%s failed in %d\n",$1,fails)
+}
+}' point.[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ pdftotext s4c.pdf
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pgedit cgpa_1.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kjoint[K students.txt cgpa_1.txt >cg[K[K CG PA.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ join students.txt cgpa_1.txt > CGPPA.txt[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls
+cgpa_1.txt    gp.txt         result_na.txt  result.txt  students.txt
+cgpa_raw.txt  point.txt      result_nn.txt  s4c.pdf     work.txt
+CGPA.txt      result.cs.txt  result.pdf     s4c.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ CGPA.txt
+CGPA.txt: command not found
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ CGPA.txtgCGPA.txteCGPA.txtdCGPA.txtiCGPA.txttCGPA.txt CGPA.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit CGPA.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit CGPA.txt[6PCGPA.txtls[Kjoin students.txt cgpa_1.txt > CGPPA.txt[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [17Pgedit cgpa_1.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpdftotext s4c.pdf[11Pawk '{
+sum = 0
+flag = 0
+fails = 0
+for(var =2; var<=NF; var++)
+{
+if($var == 0) 
+{
+flag = 1
+fails = fails + 1
+}
+sum += $var
+}
+cgpa = sum/9
+if (flag == 0) {
+ printf("%s %0.2f\n",$1,cgpa)
+}
+if (flag == 1) {
+printf("%s failed in %d\n",$1,fails)
+}
+}' point.[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit cgpa_raw.txt
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcar[Kt res[K[K[KCGPA.txt
+CHN18CS002 ABHIITHP  failed in 6
+CHN18CS003 ABIN BINU SAM  9.11
+CHN18CS005 ADHIL SHAHANAD K K  7.94
+CHN18CS006 ADWAITH SIVAN  failed in 2
+CHN18CS007 Aju George Jacob  8.56
+CHN18CS008 AKHIL RAVINDRAN  8.44
+CHN18CS012 ALKA ANNA SABU  7.94
+CHN18CS015 Amal Ramachandran  failed in 1
+CHN18CS018 ANJANA S  9.67
+CHN18CS023 ARAVIND R  8.56
+CHN18CS024 ARJUN A  failed in 4
+CHN18CS025 ARJUN G KRISHNA  8.06
+CHN18CS028 ASHIK DAVID ABRAHAM  failed in 2
+CHN18CS029 Ashna A  9.33
+CHN18CS035 DEEPA MARIAM GEORGE  9.22
+CHN18CS037 DEVIKA J  8.22
+CHN18CS039 Emmanuel Shine Joseph  8.50
+CHN18CS043 GEORGE MANI  8.61
+CHN18CS046 GOPIKA PRADEEP  7.89
+CHN18CS047 GOPIKA SURESH  failed in 1
+CHN18CS048 GOPUDAS KM  failed in 4
+CHN18CS049 GOVIND KARTHA  8.78
+CHN18CS051 HABEL JAMES GEORGE  failed in 2
+CHN18CS052 HARI S R  failed in 4
+CHN18CS053 HELEENA ANNA VARGHESE  failed in 1
+CHN18CS055 lrene Maria Zachariah  8.17
+CHN18CS056 JALENA MATHEW  8.11
+CHN18CS057 JEENU CHACKO  8.17
+CHN18CS060 Jessal John Mammen  failed in 3
+CHN18CS061 Jesswin W Varghese  failed in 5
+CHN18CS063 Jibin Joseph  8.28
+CHN18CS064 JISA SURENDRAN  failed in 1
+CHN18CS068 Jonathan John Varghese  8.11
+CHN18CS069 JOSHENA JOSEPH  8.28
+CHN18CS071 JUSTIN JOSEPH  failed in 3
+CHN18CS073 KAVYA M  8.83
+CHN18CS076 KIRAN U  failed in 1
+CHN18CS079 Manu Mathew  7.67
+CHN18CS080 MARGRET JAISON  9.44
+CHN18CS082 Muhammad Jalal  failed in 1
+CHN18CS083 MUNISH KUMAR  failed in 1
+CHN18CS084 NAJEEB  8.00
+CHN18CS090 NIMMY GEORGE  failed in 5
+CHN18CS092 NIVEA GIGEN  9.33
+CHN18CS093 Nivya Maria Mathew  9.44
+CHN18CS095 PARVATHY KRISHNAN  9.44
+CHN18CS096 PARVATHY SANTHOSH  8.11
+CHN18CS097 Prayank P Nair  failed in 2
+CHN18CS100 Remya C  failed in 1
+CHN18CS101 REMYA RAVEEDRANATHAN failed in 1
+CHN18CS103 RINU ELISABATH MATHEW  9.00
+CHN18CS104 Rojin K Sunny  8.83
+CHN18CS108 SARATH KUMAR S  7.56
+CHN18CS109 SAURAV K.J.  7.33
+CHN18CS110 SEBA SUSAN MATHEW  failed in 3
+CHN18CS111 SHILPA SAJAN PUNNOOSE 8.56
+CHN18CS113 SONA SEBASTIAN  7.89
+CHN18CS114 SOUMYAMOL S  failed in 3
+CHN18CS115 SREEJITH MURALI  failed in 1
+CHN18CS118 THEJUS R  failed in 2
+CHN18CS120 VISHNUSS  failed in 2
+CHN18CS121 VISHWANATH R ATHREY  7.78
+CHN18CS122 VIVEK K P  9.00
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ echo cat CGPA.txt[7Pecho CGPA.txt
+CGPA.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ echo CGPA.txt[1Pcat[C[C[C[C[C[C[C[C[C[2@gedi[C[C[C[C[C[C[C[C[C[C[6PCGPA.txtls[Kjoin students.txt cgpa_1.txt > CGPPA.txt[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [17Pgedit cgpa_1.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpdftotext s4c.pdf[11Pawk '{
+sum = 0
+flag = 0
+fails = 0
+for(var =2; var<=NF; var++)
+{
+if($var == 0) 
+{
+flag = 1
+fails = fails + 1
+}
+sum += $var
+}
+cgpa = sum/9
+if (flag == 0) {
+ printf("%s %0.2f\n",$1,cgpa)
+}
+if (flag == 1) {
+printf("%s failed in %d\n",$1,fails)
+}
+}' point.[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit cgpa_raw.txt
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pgp_raw.txt[10Pawk '{
+sum = 0
+flag = 0
+fails = 0
+for(var =2; var<=NF; var++)
+{
+if($var == 0) 
+{
+flag = 1
+fails = fails + 1
+}
+sum += $var
+}
+cgpa = sum/9
+if (flag == 0) {
+ printf("%s %0.2f\n",$1,cgpa)
+}
+if (flag == 1) {
+printf("%s failed in %d\n",$1,fails)
+}
+}' gp.txt > cgpa_raw.txt[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [C[C[C[C '{  
+print $1,$3,$5,$7,$9,$11,$13,$15,$17,$19
+ }' result.txt > point.txt
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit gp.txt
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pp.txt[4Plsawk  '{  
+print $1,$3,$5,$7,$9,$11,$13,$15,$17,$19
+ }' result.txt > gp.txt[A[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit result.txt
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csed -i 's/(Absent)/ 0/g' result.txxt[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [C[C[C[C[C[C[C[C[C[C[C[3PI)/ 0/g' result.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@FE[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pgedit[C[C[C[C[C[C[C[C[C[C[C[14@sed -i 's/(F)/ 0/g'[C[C[C[C[C[C[C[C[C[C[CP)/ 5[C[C[C[C[C[C[C[C[C[C[C[C[C[CC)/ 6[C[C[C[C[C[C[C[C[C[C[C[C[C[CP)/ 5[C[C[C[C[C[C[C[C[C[C[C[C[C[CF)/ 0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pgedit[C[C[C[C[C[C[C[C[C[C[C[15@sed -i 's/(FE)/ 0/g'[C[C[C[C[C[C[C[C[C[C[C[1PI[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CAbsent)/ 0/g' result.txxt[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ [17Pgedit result.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pawk  '{  
+print $1,$3,$5,$7,$9,$11,$13,$15,$17,$19
+ }' result.txt > gp.txt[A[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ ls[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgp.txt[4Pls[K[Kgedit report [K.txt
+^[[A^[[A        ^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit report.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit report.txt[3Pecho CGPA.txt[K[K[K[K[K[K[K[K[K[K[K[K[Kmkdir s1
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ mkdir s1[K2
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ mkdir s21gedit report.txt[3Pecho CGPA.txt[1Pcat[C[C[C[C[C[C[C[C[C[2@gedi[C[C[C[C[C[C[C[C[C[C[6PCGPA.txtls[KCGPA.txt[K[K[K[K[K[K[K[Kpd[K[Kcd s1
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ cd s1mkdir s2[K[K[K[K[K[K[K[K;ls[K[K[Kls
+result_CHN.pdf  students.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ lscd s1mkdir s2[3Pcd s1[3Pls[Kpdftotext -layout result_CHN.p df result_CHN.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ grep --no-group-separator -A3  "CHN18CS" result_CHN.txt > result_cs.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ tr '\n' ' ' < result_cs.txt >  result_nn.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ sed 's/\t//g' result_nn.txt >  result_na.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ awk '{$1=$1;print}' result_na. txt > result_nn.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ sed 's/CHN/\nCHN/g' result_nn. txt > result_na.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ tr ',' ' ' < result_na.txt > r esult.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ sed -i 's/(O)/ 10/g' result.tx t
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ sed -i 's/(A+)/ 9/g' result.tx t
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ sed -i 's/(A)/ 8.5/g' result.t xt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ sed -i 's/(B+)/ 8/g' result.tx t
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ sed -i 's/(B)/ 7/g' result.txt [A
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ sed -i 's/(C)/ 6/g' result.txt [A
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ sed -i 's/(P)/ 5/g' result.txt [A
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ sed -i 's/(F)/ 0/g' result.txt [A
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ sed -i 's/(FE)/ 0/g' result.tx t
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ sed -i 's/(I)/ 0/g' result.txt [A
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ sed -i 's/(Absent)/ 0/g' resul t.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ awk  '{  
+> print $1,$3,$5,$7,$9,$11,$13,$15,$17,$19
+>  }' result.txt > gp.txt 
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ 
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ awk '{
+> sum = 0
+> flag = 0
+> fails = 0
+> for(var =2; var<=NF; var++)
+> {
+> 
+gp.txt          result_CHN.txt  result_na.txt   result.txt      
+result_CHN.pdf  result_cs.txt   result_nn.txt   students.txt    
+> if($var == 0) 
+> 
+gp.txt          result_CHN.txt  result_na.txt   result.txt      
+result_CHN.pdf  result_cs.txt   result_nn.txt   students.txt    
+> {
+> 
+gp.txt          result_CHN.txt  result_na.txt   result.txt      
+result_CHN.pdf  result_cs.txt   result_nn.txt   students.txt    
+> 
+gp.txt          result_CHN.txt  result_na.txt   result.txt      
+result_CHN.pdf  result_cs.txt   result_nn.txt   students.txt    
+> flag = 1
+> 
+gp.txt          result_CHN.txt  result_na.txt   result.txt      
+result_CHN.pdf  result_cs.txt   result_nn.txt   students.txt    
+> 
+gp.txt          result_CHN.txt  result_na.txt   result.txt      
+result_CHN.pdf  result_cs.txt   result_nn.txt   students.txt    
+> fails = fails + 1
+> 
+gp.txt          result_CHN.txt  result_na.txt   result.txt      
+result_CHN.pdf  result_cs.txt   result_nn.txt   students.txt    
+> }
+> 
+gp.txt          result_CHN.txt  result_na.txt   result.txt      
+result_CHN.pdf  result_cs.txt   result_nn.txt   students.txt    
+> sum += $var
+> }
+> cgpa = sum/9
+> if (flag == 0) {
+>  printf("%s %0.2f\n",$1,cgpa)
+> }
+> if (flag == 1) {
+> 
+gp.txt          result_CHN.txt  result_na.txt   result.txt      
+result_CHN.pdf  result_cs.txt   result_nn.txt   students.txt    
+> printf("%s failed in %d\n",$1,fails)
+> }
+> }' gp.txt > cgpa_raw.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ 
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ join students.txt cgpa_raw.txt  > cgpa.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ join students.txt cgpa_raw.txt  > cgpa.txt[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ awk '{                        s[4Pum = 0
+flag = 0
+fails = 0
+for(var =2; var<=NF; var++)
+{
+if($var == 0) 
+{
+flag = 1
+fails = fails + 1
+}
+sum += $var
+}
+cgpa = sum/9
+if (flag == 0) {
+ printf("%s %0.2f\n",$1,cgpa)
+}
+if (flag == 1) {
+printf("%s failed in %d\n",$1,fails)
+}
+}' gp.txt > cgpa_raw.txt[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ join students.txt cgpa_raw.txt > cgpa.txt
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgedit cgpa.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ cat cgpa.txt
+CHN18CS002 ABHIITHP  failed in 4
+CHN18CS003 ABIN BINU SAM  9.33
+CHN18CS005 ADHIL SHAHANAD K K  8.06
+CHN18CS006 ADWAITH SIVAN  failed in 3
+CHN18CS007 Aju George Jacob  8.56
+CHN18CS008 AKHIL RAVINDRAN  7.94
+CHN18CS012 ALKA ANNA SABU  8.22
+CHN18CS015 Amal Ramachandran  failed in 4
+CHN18CS018 ANJANA S  9.33
+CHN18CS023 ARAVIND R  7.89
+CHN18CS024 ARJUN A  failed in 3
+CHN18CS025 ARJUN G KRISHNA  8.11
+CHN18CS028 ASHIK DAVID ABRAHAM  failed in 2
+CHN18CS029 Ashna A  9.17
+CHN18CS035 DEEPA MARIAM GEORGE  9.17
+CHN18CS037 DEVIKA J  8.44
+CHN18CS039 Emmanuel Shine Joseph  8.17
+CHN18CS043 GEORGE MANI  8.06
+CHN18CS046 GOPIKA PRADEEP  failed in 2
+CHN18CS047 GOPIKA SURESH  failed in 1
+CHN18CS048 GOPUDAS KM  failed in 4
+CHN18CS049 GOVIND KARTHA  8.56
+CHN18CS051 HABEL JAMES GEORGE  failed in 2
+CHN18CS052 HARI S R  failed in 5
+CHN18CS053 HELEENA ANNA VARGHESE  7.72
+CHN18CS055 lrene Maria Zachariah  failed in 1
+CHN18CS056 JALENA MATHEW  8.39
+CHN18CS057 JEENU CHACKO  8.06
+CHN18CS060 Jessal John Mammen  failed in 1
+CHN18CS061 Jesswin W Varghese  failed in 2
+CHN18CS063 Jibin Joseph  8.44
+CHN18CS064 JISA SURENDRAN  failed in 1
+CHN18CS068 Jonathan John Varghese  7.83
+CHN18CS069 JOSHENA JOSEPH  8.22
+CHN18CS071 JUSTIN JOSEPH  failed in 3
+CHN18CS073 KAVYA M  8.83
+CHN18CS076 KIRAN U  failed in 1
+CHN18CS079 Manu Mathew  7.89
+CHN18CS080 MARGRET JAISON  9.33
+CHN18CS082 Muhammad Jalal  7.89
+CHN18CS083 MUNISH KUMAR  failed in 4
+CHN18CS084 NAJEEB  7.78
+CHN18CS090 NIMMY GEORGE  failed in 5
+CHN18CS092 NIVEA GIGEN  8.83
+CHN18CS093 Nivya Maria Mathew  9.61
+CHN18CS095 PARVATHY KRISHNAN  9.11
+CHN18CS096 PARVATHY SANTHOSH  8.00
+CHN18CS097 Prayank P Nair  8.06
+CHN18CS100 Remya C  8.83
+CHN18CS101 REMYA RAVEEDRANATHAN 7.94
+CHN18CS103 RINU ELISABATH MATHEW  9.00
+CHN18CS104 Rojin K Sunny  9.11
+CHN18CS108 SARATH KUMAR S  failed in 3
+CHN18CS109 SAURAV K.J.  failed in 2
+CHN18CS110 SEBA SUSAN MATHEW  failed in 1
+CHN18CS111 SHILPA SAJAN PUNNOOSE 8.33
+CHN18CS113 SONA SEBASTIAN  8.50
+CHN18CS114 SOUMYAMOL S  failed in 1
+CHN18CS115 SREEJITH MURALI  8.72
+CHN18CS118 THEJUS R  8.06
+CHN18CS120 VISHNUSS  7.11
+CHN18CS121 VISHWANATH R ATHREY  8.22
+CHN18CS122 VIVEK K P  8.56
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ re[K[Kgedit report
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ gedit report.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02/s1s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02/s1$ cd ..
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ cd ..gedit report.txt
+^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit report.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ gedit report.txtcd ..[K[K[K[K[K[Kfspt[K[K[K[Ksfpt^[[2~^?[K[K[K[K[K[K[Ktp
+usage: sftp [-1246Cpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ sftp[K[K[Kgedit report.txts[K[Ksfg[Ktp cs18c02[K3@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c03@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+examples.desktop     
+sftp> mk dir[K[K[Kdir adhil;[K
+sftp> ls
+adhil                examples.desktop     
+sftp> adhil[7G[1@ca[1@da[1@ a
+sftp> cat .[K>dsff.txt
+Invalid command.
+sftp> cat >dsff.txt[1@ d
+Invalid command.
+sftp> nano dsdf
+Invalid command.
+sftp> nano dsdf[7Gcat > dsff.txt[P [Pd
+Invalid command.
+sftp> cat dsff.txt[7Gnano dsdf[K[K[K[K[K[K[K[K[Kpwd
+Remote working directory: /home/cs18c03/adhil
+sftp> lpwd
+Local working directory: /home/s4c1/ceccs18c03/cs232/07-02
+sftp> l[Klls
+cgpa.txt  CGPA.txt  report.txt	report.txt~  s1  s2  work.txt
+sftp> cd ..[K[K[K[Klcat[K[K[K[Kllspwd[K[K[K[Kcd ..
+sftp> lcd ..
+sftp> llsd[K
+,.;  07-02  24-01  31-01  work.txt
+sftp> ls
+adhil                examples.desktop     
+sftp> cd adhil
+sftp> ls
+sftp> lls
+,.;  07-02  24-01  31-01  work.txt
+sftp> putn [K .[K,.;
+Uploading ,.;/ to /home/cs18c03/adhil/,.;
+,.;/ is not a regular file
+sftp> put work.txt
+Uploading work.txt to /home/cs18c03/adhil/work.txt
+work.txt                                              0%    0     0.0KB/s   --:-- ETAwork.txt                                            100%  393     0.4KB/s   00:00    
+sftp> put [K[K[Klpwd
+Local working directory: /home/s4c1/ceccs18c03/cs232
+sftp> lcd ,.;
+sftp> lls
+adhil	  result_CHN.pdf  result.pdf  students.txt
+cgpa.txt  result_CHN.txt  sript.sh    students.txt~
+sftp> lpwd
+Local working directory: /home/s4c1/ceccs18c03/cs232/,.;
+sftp> lpwd[Kput /home/s4c1/ceccs18c03/cs232/,.;
+Uploading /home/s4c1/ceccs18c03/cs232/,.;/ to /home/cs18c03/adhil/,.;
+/home/s4c1/ceccs18c03/cs232/,.;/ is not a regular file
+sftp> put /home/s4c1/ceccs18c03/cs232/,.;t [1@ /[1@r [1@- [1@~ [P 
+stat r-: No such file or directory
+sftp> put r- /home/s4c1/ceccs18c03/cs232/,.;[1@\ [P [P  [1@ r[1@- [1@\ [P [1@~ [P [1@~ [P  [Pr
+Uploading /home/s4c1/ceccs18c03/cs232/,.;/ to /home/cs18c03/adhil/,.;
+/home/s4c1/ceccs18c03/cs232/,.;/students.txt~         0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/,.;/students.txt~       100% 1677     1.6KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/,.;/cgpa.txt              0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/,.;/cgpa.txt            100% 2174     2.1KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/,.;/sript.sh              0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/,.;/sript.sh            100% 1550     1.5KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/,.;/result_CHN.pdf        0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/,.;/result_CHN.pdf      100%   26KB  26.4KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/,.;/result_CHN.txt        0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/,.;/result_CHN.txt      100%   43KB  43.5KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/,.;/result.pdf            0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/,.;/result.pdf          100%   26KB  26.4KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/,.;/students.txt          0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/,.;/students.txt        100% 1677     1.6KB/s   00:00    
+sftp> ls
+,.;       work.txt  
+sftp> cd ,.;
+sftp> ls
+adhil            cgpa.txt         result.pdf       result_CHN.pdf   result_CHN.txt   
+sript.sh         students.txt     students.txt~    
+sftp> ls[K[Klls
+adhil	  result_CHN.pdf  result.pdf  students.txt
+cgpa.txt  result_CHN.txt  sript.sh    students.txt~
+sftp> lpwd
+Local working directory: /home/s4c1/ceccs18c03/cs232/,.;
+sftp> lcd.. ..
+sftp> lls
+,.;  07-02  24-01  31-01  work.txt
+sftp> pwd
+Remote working directory: /home/cs18c03/adhil/,.;
+sftp> cs[Kd ..
+sftp> ls
+,.;       work.txt  
+sftp> l[Kcd ..
+sftp> ls
+adhil                examples.desktop     
+sftp> mk diu[Kr 31-01
+sftp> cd 31-01
+sftp> put [K[K[Klpwd
+Local working directory: /home/s4c1/ceccs18c03/cs232
+sftp> lls
+,.;  07-02  24-01  31-01  work.txt
+sftp> put 31-01
+Uploading 31-01/ to /home/cs18c03/31-01/31-01
+31-01/ is not a regular file
+sftp> ls
+sftp> lcd 31-01
+sftp> ls[K[Kput 31-01
+stat 31-01: No such file or directory
+sftp> put 31-01[7Glcd[16G[K[K[K[K[K..
+sftp> l[Kpe[Kwd
+Remote working directory: /home/cs18c03/31-01
+sftp> lls
+,.;  07-02  24-01  31-01  work.txt
+sftp> lcd 3[Ksftp> lcd 31-01/
+sftp> lpwd
+Local working directory: /home/s4c1/ceccs18c03/cs232/31-01
+sftp> put -r /[K/home/s4c1/ceccs18c03/cs232/31-01
+Uploading /home/s4c1/ceccs18c03/cs232/31-01/ to /home/cs18c03/31-01/31-01
+/home/s4c1/ceccs18c03/cs232/31-01/abc.txt             0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/abc.txt           100%   12     0.0KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/sort                0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/sort              100%   17     0.0KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/report              0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/report            100% 4063     4.0KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/report1             0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/report1           100% 2149     2.1KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/report~             0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/report~           100% 4063     4.0KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/objects/e6/9   0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/objects/e6/9 100%   15     0.0KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/objects/71/9   0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/objects/71/9 100%  132     0.1KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/objects/5e/f   0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/objects/5e/f 100%   53     0.1KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/objects/9b/2   0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/objects/9b/2 100%  161     0.2KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/objects/92/5   0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/objects/92/5 100% 1325     1.3KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/objects/bd/8   0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/objects/bd/8 100%   83     0.1KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/FETCH_HEAD   100%    0     0.0KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/HEAD           0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/HEAD         100%   23     0.0KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/index          0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/index        100%  190     0.2KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/ORIG_HEAD      0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/ORIG_HEAD    100%   41     0.0KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/description    0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/description  100%   73     0.1KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/config         0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/config       100%  198     0.2KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/refs/heads/m   0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/refs/heads/m 100%   41     0.0KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/hooks/applyp   0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/hooks/applyp 100%  452     0.4KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/hooks/commit   0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/hooks/commit 100%  896     0.9KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/hooks/pre-ap   0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/hooks/pre-ap 100%  398     0.4KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/hooks/update   0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/hooks/update 100% 3611     3.5KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/hooks/post-u   0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/hooks/post-u 100%  189     0.2KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/hooks/pre-re   0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/hooks/pre-re 100% 4898     4.8KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/hooks/pre-co   0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/hooks/pre-co 100% 1704     1.7KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/hooks/prepar   0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/hooks/prepar 100% 1239     1.2KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/info/exclude   0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/info/exclude 100%  240     0.2KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/COMMIT_EDITM   0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/COMMIT_EDITM 100%   13     0.0KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/logs/HEAD      0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/logs/HEAD    100%  318     0.3KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/.git/logs/refs/he   0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/.git/logs/refs/he 100%  318     0.3KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/work.txt            0%    0     0.0KB/s   --:-- ETA/home/s4c1/ceccs18c03/cs232/31-01/work.txt          100%   28KB  28.0KB/s   00:00    
+/home/s4c1/ceccs18c03/cs232/31-01/test.txt          100%    0     0.0KB/s   00:00    
+sftp> ls
+31-01  
+sftp> cd ..
+sftp> lsa
+Invalid command.
+sftp> ls
+31-01                adhil                examples.desktop     
+sftp> pwd
+Remote working directory: /home/cs18c03
+sftp> cd 31[Ksftp> cd 31-01/
+sftp> ls
+31-01  
+sftp> re[Kmdir 3[Ksftp> rmdir 31-01/
+Couldn't remove directory: Failure
+sftp> re[Kmdir 31-01/[P [P [P 
+Removing /home/cs18c03/31-01/31-01/
+Couldn't delete file: Failure
+sftp> cd[K[Kexit
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/07-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/07-02$ exit
+exit
+
+Script done on Friday 07 February 2020 05:57:01 PM IST
