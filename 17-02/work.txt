@@ -1,0 +1,496 @@
+Script started on Monday 17 February 2020 09:44:19 AM IST
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/17-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/17-02$ ssh cs10[K8c03@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c03@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb 17 09:29:18 2020 from 192.168.0.197
+$ sc  scp   ls
+07-02  31-01  adhil  examples.desktop
+$ scp temp.txt 192.168.0.30
+cp: cannot stat 'temp.txt': No such file or directory
+$ ^[[A    cd  ^[[A    ls    cd 08=7   7-02
+$ ^[[A    scp temp    cgpa        scp cgpa.txt.192.168.0.30
+usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+$ ^[[A    ^[[B    scp     ls
+cgpa.txt  CGPA.txt  report.txt	report.txt~  s1  s2  work.txt
+$ scp temp1.txt cs18c03@192.168.0.30
+cp: cannot stat 'temp1.txt': No such file or directory
+$ ^[[A    scp CGPA.txt a cs18c03@192.168.0.30
+$ ls
+cgpa.txt  cs18c03@192.168.0.30	report.txt~  s2
+CGPA.txt  report.txt		s1	     work.txt
+$ ^C
+$ ^C
+$ scp s1.te         ^[[A^[[A        scp s1.CGPA.TX  txt
+usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+$ ls
+cgpa.txt  cs18c03@192.168.0.30	report.txt~  s2
+CGPA.txt  report.txt		s1	     work.txt
+$ cd s1
+$ ls
+cgpa_raw.txt  gp.txt	      result_CHN.txt  result_na.txt  result.txt
+cgpa.txt      result_CHN.pdf  result_cs.txt   result_nn.txt  students.txt
+$ cd ..
+$ ls
+cgpa.txt  cs18c03@192.168.0.30	report.txt~  s2
+CGPA.txt  report.txt		s1	     work.txt
+$ vc  cd ..
+$ mkdir       mkdir trial
+$ cd trial
+$ ged   ssh   scp temp    temp.txt  / .1932  2.168.0.30
+usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+$ ^[[A    scp temp1.txt ask@    cec  s18c03@14.139.184.21             192.168.0.30
+cp: cannot stat 'temp1.txt': No such file or directory
+$ ^[[A    scp temp1.^[[2~      ,tc   .txt  cs  .cs18c03@a 192.168.0.30:
+usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+$ ls
+$ 
+$ scpb  cs18c03@192.168.0.30   temp1.txt
+cp: cannot stat 'cs18c03@192.168.0.30': No such file or directory
+$ ls
+$ cd ..
+$ ls
+07-02  31-01  adhil  examples.desktop  trial
+$ cd tra aial
+-sh: 27: cd: can't cd to traial
+$ ^[[A    cd tral  ial
+$ ls
+$ ^[[A    sco r temp        scp 
+usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+$ scc p temp.txt cs18c03@192.169 8.0.30:trial
+The authenticity of host '192.168.0.30 (192.168.0.30)' can't be established.
+ECDSA key fingerprint is SHA256:pkLWQEXAwg4Zdh5CXNYydUTPcU7dwDFxyzJnqJ01m/s.
+Are you sure you want to continue connecting (yes/no)? y
+Please type 'yes' or 'no': yes
+Warning: Permanently added '192.168.0.30' (ECDSA) to the list of known hosts.
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c03@192.168.0.30's password: 
+temp.txt: No such file or directory
+$ ^[[A    sx cp tepm   emp.txt cs18c03@192.169 8.0.30:trial
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c03@192.168.0.30's password: 
+temp.txt: No such file or directory
+$ ls
+$ cd.  ..
+$ lcd  ls
+-sh: 35: lls: not found
+$ lcd     ^[[A^[[A        cd ..
+$ ls
+ask	 cs17d21  cs17d44  cs18c04  cs18c27  cs18c50  ee18e07  ee18e30	ee18f19
+cec	 cs17d22  cs17d45  cs18c05  cs18c28  cs18c51  ee18e08  ee18e31	ee18f20
+cs17d00  cs17d23  cs17d46  cs18c06  cs18c29  cs18c52  ee18e09  ee18e32	ee18f21
+cs17d01  cs17d24  cs17d47  cs18c07  cs18c30  cs18c53  ee18e10  ee18e33	ee18f22
+cs17d02  cs17d25  cs17d48  cs18c08  cs18c31  cs18c54  ee18e11  ee18f00	ee18f23
+cs17d03  cs17d26  cs17d49  cs18c09  cs18c32  cs18c55  ee18e12  ee18f01	ee18f24
+cs17d04  cs17d27  cs17d50  cs18c10  cs18c33  cs18c56  ee18e13  ee18f02	ee18f25
+cs17d05  cs17d28  cs17d51  cs18c11  cs18c34  cs18c57  ee18e14  ee18f03	ee18f26
+cs17d06  cs17d29  cs17d52  cs18c12  cs18c35  cs18c58  ee18e15  ee18f04	ee18f27
+cs17d07  cs17d30  cs17d53  cs18c13  cs18c36  cs18c59  ee18e16  ee18f05	ee18f28
+cs17d08  cs17d31  cs17d54  cs18c14  cs18c37  cs18c60  ee18e17  ee18f06	ee18f29
+cs17d09  cs17d32  cs17d55  cs18c15  cs18c38  cs18c61  ee18e18  ee18f07	ee18f30
+cs17d10  cs17d33  cs17d56  cs18c16  cs18c39  cs18c62  ee18e19  ee18f08	ee18f31
+cs17d11  cs17d34  cs17d57  cs18c17  cs18c40  cs18c63  ee18e20  ee18f09	ee18f32
+cs17d12  cs17d35  cs17d58  cs18c18  cs18c41  cs18c64  ee18e21  ee18f10	ee18f33
+cs17d13  cs17d36  cs17d59  cs18c19  cs18c42  cs18c65  ee18e22  ee18f11	exam19
+cs17d14  cs17d37  cs17d60  cs18c20  cs18c43  ee18e00  ee18e23  ee18f12	hari
+cs17d15  cs17d38  cs17d61  cs18c21  cs18c44  ee18e01  ee18e24  ee18f13	ieeecec
+cs17d16  cs17d39  cs17d62  cs18c22  cs18c45  ee18e02  ee18e25  ee18f14
+cs17d17  cs17d40  cs18c00  cs18c23  cs18c46  ee18e03  ee18e26  ee18f15
+cs17d18  cs17d41  cs18c01  cs18c24  cs18c47  ee18e04  ee18e27  ee18f16
+cs17d19  cs17d42  cs18c02  cs18c25  cs18c48  ee18e05  ee18e28  ee18f17
+cs17d20  cs17d43  cs18c03  cs18c26  cs18c49  ee18e06  ee18e29  ee18f18
+$ cd csc====     18c03
+$ ls
+07-02  31-01  adhil  examples.desktop  trial
+$ cd trial
+$ ld s
+$ cd ..
+$ lls
+-sh: 43: lls: not found
+$ ^[[A    trial     ls
+07-02  31-01  adhil  examples.desktop  trial
+$ cd trial 
+$ mkdir temp.txt^[[D^[[D^[[D                123.txt
+$ cd , ..
+$ gedit temp12.txt
+Failed to connect to Mir: Failed to connect to server socket: No such file or directory
+Unable to init server: Could not connect: Connection refused
+
+(gedit:19037): Gtk-WARNING **: cannot open display: 
+$ lls
+-sh: 49: lls: not found
+$ ^[[D    ^[[A    ^[[A    ^[[A    scp cs18c03@192.168 8.0.30.temp.i  1.txt
+usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+$ tsync     rst ync -av           cd ..
+$ ls
+ask	 cs17d11  cs17d24  cs17d37  cs17d50  cs18c00  cs18c13  cs18c26	cs18c39  cs18c52  cs18c65  ee18e12  ee18e25  ee18f04  ee18f17  ee18f30
+cec	 cs17d12  cs17d25  cs17d38  cs17d51  cs18c01  cs18c14  cs18c27	cs18c40  cs18c53  ee18e00  ee18e13  ee18e26  ee18f05  ee18f18  ee18f31
+cs17d00  cs17d13  cs17d26  cs17d39  cs17d52  cs18c02  cs18c15  cs18c28	cs18c41  cs18c54  ee18e01  ee18e14  ee18e27  ee18f06  ee18f19  ee18f32
+cs17d01  cs17d14  cs17d27  cs17d40  cs17d53  cs18c03  cs18c16  cs18c29	cs18c42  cs18c55  ee18e02  ee18e15  ee18e28  ee18f07  ee18f20  ee18f33
+cs17d02  cs17d15  cs17d28  cs17d41  cs17d54  cs18c04  cs18c17  cs18c30	cs18c43  cs18c56  ee18e03  ee18e16  ee18e29  ee18f08  ee18f21  exam19
+cs17d03  cs17d16  cs17d29  cs17d42  cs17d55  cs18c05  cs18c18  cs18c31	cs18c44  cs18c57  ee18e04  ee18e17  ee18e30  ee18f09  ee18f22  hari
+cs17d04  cs17d17  cs17d30  cs17d43  cs17d56  cs18c06  cs18c19  cs18c32	cs18c45  cs18c58  ee18e05  ee18e18  ee18e31  ee18f10  ee18f23  ieeecec
+cs17d05  cs17d18  cs17d31  cs17d44  cs17d57  cs18c07  cs18c20  cs18c33	cs18c46  cs18c59  ee18e06  ee18e19  ee18e32  ee18f11  ee18f24
+cs17d06  cs17d19  cs17d32  cs17d45  cs17d58  cs18c08  cs18c21  cs18c34	cs18c47  cs18c60  ee18e07  ee18e20  ee18e33  ee18f12  ee18f25
+cs17d07  cs17d20  cs17d33  cs17d46  cs17d59  cs18c09  cs18c22  cs18c35	cs18c48  cs18c61  ee18e08  ee18e21  ee18f00  ee18f13  ee18f26
+cs17d08  cs17d21  cs17d34  cs17d47  cs17d60  cs18c10  cs18c23  cs18c36	cs18c49  cs18c62  ee18e09  ee18e22  ee18f01  ee18f14  ee18f27
+cs17d09  cs17d22  cs17d35  cs17d48  cs17d61  cs18c11  cs18c24  cs18c37	cs18c50  cs18c63  ee18e10  ee18e23  ee18f02  ee18f15  ee18f28
+cs17d10  cs17d23  cs17d36  cs17d49  cs17d62  cs18c12  cs18c25  cs18c38	cs18c51  cs18c64  ee18e11  ee18e24  ee18f03  ee18f16  ee18f29
+$ cd cs18c03
+$ ls
+07-02  31-01  adhil  examples.desktop  trial
+$ t rsync -av 31-01/trial/^[[D           trial/
+sending incremental file list
+./
+31-01/
+31-01/abc.txt
+31-01/report
+31-01/report1
+31-01/report~
+31-01/sort
+31-01/test.txt
+31-01/work.txt
+31-01/.git/
+31-01/.git/COMMIT_EDITMSG
+31-01/.git/FETCH_HEAD
+31-01/.git/HEAD
+31-01/.git/ORIG_HEAD
+31-01/.git/config
+31-01/.git/description
+31-01/.git/index
+31-01/.git/branches/
+31-01/.git/hooks/
+31-01/.git/hooks/applypatch-msg.sample
+31-01/.git/hooks/commit-msg.sample
+31-01/.git/hooks/post-update.sample
+31-01/.git/hooks/pre-applypatch.sample
+31-01/.git/hooks/pre-commit.sample
+31-01/.git/hooks/pre-rebase.sample
+31-01/.git/hooks/prepare-commit-msg.sample
+31-01/.git/hooks/update.sample
+31-01/.git/info/
+31-01/.git/info/exclude
+31-01/.git/logs/
+31-01/.git/logs/HEAD
+31-01/.git/logs/refs/
+31-01/.git/logs/refs/heads/
+31-01/.git/logs/refs/heads/master
+31-01/.git/objects/
+31-01/.git/objects/5e/
+31-01/.git/objects/5e/fb9bc29c482e023e40e0a2b3b7e49cec842034
+31-01/.git/objects/71/
+31-01/.git/objects/71/99c8474eb39c6e6104579a1268c91fa35ab1bd
+31-01/.git/objects/92/
+31-01/.git/objects/92/5df26a865e22bc2d5cd2c23754b2c460ddbc2f
+31-01/.git/objects/9b/
+31-01/.git/objects/9b/2742041af2c681060173c634bf9684254eca1a
+31-01/.git/objects/bd/
+31-01/.git/objects/bd/89f0e22aa064ff3b5c5fcb99cb8dd16bd093ec
+31-01/.git/objects/e6/
+31-01/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+31-01/.git/objects/info/
+31-01/.git/objects/pack/
+31-01/.git/refs/
+31-01/.git/refs/heads/
+31-01/.git/refs/heads/master
+31-01/.git/refs/tags/
+
+sent 58,362 bytes  received 715 bytes  39,384.67 bytes/sec
+total size is 55,587  speedup is 0.94
+$ cd trial
+$ ls
+31-01  temp123.txt
+$ cd 31-01
+$ ls
+abc.txt  report  report~  report1  sort  test.txt  work.txt
+$ ^[[A    cd ..
+$ ls
+31-01  temp123.txt
+$ cd ..
+$ rsync -a
+rsync  version 3.1.1  protocol version 31
+Copyright (C) 1996-2014 by Andrew Tridgell, Wayne Davison, and others.
+Web site: http://rsync.samba.org/
+Capabilities:
+    64-bit files, 64-bit inums, 64-bit timestamps, 64-bit long ints,
+    socketpairs, hardlinks, symlinks, IPv6, batchfiles, inplace,
+    append, ACLs, xattrs, iconv, symtimes, prealloc
+
+rsync comes with ABSOLUTELY NO WARRANTY.  This is free software, and you
+are welcome to redistribute it under certain conditions.  See the GNU
+General Public Licence for details.
+
+rsync is a file transfer program capable of efficient remote update
+via a fast differencing algorithm.
+
+Usage: rsync [OPTION]... SRC [SRC]... DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST:DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST::DEST
+  or   rsync [OPTION]... SRC [SRC]... rsync://[USER@]HOST[:PORT]/DEST
+  or   rsync [OPTION]... [USER@]HOST:SRC [DEST]
+  or   rsync [OPTION]... [USER@]HOST::SRC [DEST]
+  or   rsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST]
+The ':' usages connect via remote shell, while '::' & 'rsync://' usages connect
+to an rsync daemon, and require SRC or DEST to start with a module name.
+
+Options
+ -v, --verbose               increase verbosity
+     --info=FLAGS            fine-grained informational verbosity
+     --debug=FLAGS           fine-grained debug verbosity
+     --msgs2stderr           special output handling for debugging
+ -q, --quiet                 suppress non-error messages
+     --no-motd               suppress daemon-mode MOTD (see manpage caveat)
+ -c, --checksum              skip based on checksum, not mod-time & size
+ -a, --archive               archive mode; equals -rlptgoD (no -H,-A,-X)
+     --no-OPTION             turn off an implied OPTION (e.g. --no-D)
+ -r, --recursive             recurse into directories
+ -R, --relative              use relative path names
+     --no-implied-dirs       don't send implied dirs with --relative
+ -b, --backup                make backups (see --suffix & --backup-dir)
+     --backup-dir=DIR        make backups into hierarchy based in DIR
+     --suffix=SUFFIX         set backup suffix (default ~ w/o --backup-dir)
+ -u, --update                skip files that are newer on the receiver
+     --inplace               update destination files in-place (SEE MAN PAGE)
+     --append                append data onto shorter files
+     --append-verify         like --append, but with old data in file checksum
+ -d, --dirs                  transfer directories without recursing
+ -l, --links                 copy symlinks as symlinks
+ -L, --copy-links            transform symlink into referent file/dir
+     --copy-unsafe-links     only "unsafe" symlinks are transformed
+     --safe-links            ignore symlinks that point outside the source tree
+     --munge-links           munge symlinks to make them safer (but unusable)
+ -k, --copy-dirlinks         transform symlink to a dir into referent dir
+ -K, --keep-dirlinks         treat symlinked dir on receiver as dir
+ -H, --hard-links            preserve hard links
+ -p, --perms                 preserve permissions
+ -E, --executability         preserve the file's executability
+     --chmod=CHMOD           affect file and/or directory permissions
+ -A, --acls                  preserve ACLs (implies --perms)
+ -X, --xattrs                preserve extended attributes
+ -o, --owner                 preserve owner (super-user only)
+ -g, --group                 preserve group
+     --devices               preserve device files (super-user only)
+     --specials              preserve special files
+ -D                          same as --devices --specials
+ -t, --times                 preserve modification times
+ -O, --omit-dir-times        omit directories from --times
+ -J, --omit-link-times       omit symlinks from --times
+     --super                 receiver attempts super-user activities
+     --fake-super            store/recover privileged attrs using xattrs
+ -S, --sparse                handle sparse files efficiently
+     --preallocate           allocate dest files before writing them
+ -n, --dry-run               perform a trial run with no changes made
+ -W, --whole-file            copy files whole (without delta-xfer algorithm)
+ -x, --one-file-system       don't cross filesystem boundaries
+ -B, --block-size=SIZE       force a fixed checksum block-size
+ -e, --rsh=COMMAND           specify the remote shell to use
+     --rsync-path=PROGRAM    specify the rsync to run on the remote machine
+     --existing              skip creating new files on receiver
+     --ignore-existing       skip updating files that already exist on receiver
+     --remove-source-files   sender removes synchronized files (non-dirs)
+     --del                   an alias for --delete-during
+     --delete                delete extraneous files from destination dirs
+     --delete-before         receiver deletes before transfer, not during
+     --delete-during         receiver deletes during the transfer
+     --delete-delay          find deletions during, delete after
+     --delete-after          receiver deletes after transfer, not during
+     --delete-excluded       also delete excluded files from destination dirs
+     --ignore-missing-args   ignore missing source args without error
+     --delete-missing-args   delete missing source args from destination
+     --ignore-errors         delete even if there are I/O errors
+     --force                 force deletion of directories even if not empty
+     --max-delete=NUM        don't delete more than NUM files
+     --max-size=SIZE         don't transfer any file larger than SIZE
+     --min-size=SIZE         don't transfer any file smaller than SIZE
+     --partial               keep partially transferred files
+     --partial-dir=DIR       put a partially transferred file into DIR
+     --delay-updates         put all updated files into place at transfer's end
+ -m, --prune-empty-dirs      prune empty directory chains from the file-list
+     --numeric-ids           don't map uid/gid values by user/group name
+     --usermap=STRING        custom username mapping
+     --groupmap=STRING       custom groupname mapping
+     --chown=USER:GROUP      simple username/groupname mapping
+     --timeout=SECONDS       set I/O timeout in seconds
+     --contimeout=SECONDS    set daemon connection timeout in seconds
+ -I, --ignore-times          don't skip files that match in size and mod-time
+ -M, --remote-option=OPTION  send OPTION to the remote side only
+     --size-only             skip files that match in size
+     --modify-window=NUM     compare mod-times with reduced accuracy
+ -T, --temp-dir=DIR          create temporary files in directory DIR
+ -y, --fuzzy                 find similar file for basis if no dest file
+     --compare-dest=DIR      also compare destination files relative to DIR
+     --copy-dest=DIR         ... and include copies of unchanged files
+     --link-dest=DIR         hardlink to files in DIR when unchanged
+ -z, --compress              compress file data during the transfer
+     --compress-level=NUM    explicitly set compression level
+     --skip-compress=LIST    skip compressing files with a suffix in LIST
+ -C, --cvs-exclude           auto-ignore files the same way CVS does
+ -f, --filter=RULE           add a file-filtering RULE
+ -F                          same as --filter='dir-merge /.rsync-filter'
+                             repeated: --filter='- .rsync-filter'
+     --exclude=PATTERN       exclude files matching PATTERN
+     --exclude-from=FILE     read exclude patterns from FILE
+     --include=PATTERN       don't exclude files matching PATTERN
+     --include-from=FILE     read include patterns from FILE
+     --files-from=FILE       read list of source-file names from FILE
+ -0, --from0                 all *-from/filter files are delimited by 0s
+ -s, --protect-args          no space-splitting; only wildcard special-chars
+     --address=ADDRESS       bind address for outgoing socket to daemon
+     --port=PORT             specify double-colon alternate port number
+     --sockopts=OPTIONS      specify custom TCP options
+     --blocking-io           use blocking I/O for the remote shell
+     --stats                 give some file-transfer stats
+ -8, --8-bit-output          leave high-bit chars unescaped in output
+ -h, --human-readable        output numbers in a human-readable format
+     --progress              show progress during transfer
+ -P                          same as --partial --progress
+ -i, --itemize-changes       output a change-summary for all updates
+     --out-format=FORMAT     output updates using the specified FORMAT
+     --log-file=FILE         log what we're doing to the specified FILE
+     --log-file-format=FMT   log updates using the specified FMT
+     --password-file=FILE    read daemon-access password from FILE
+     --list-only             list the files instead of copying them
+     --bwlimit=RATE          limit socket I/O bandwidth
+     --outbuf=N|L|B          set output buffering to None, Line, or Block
+     --write-batch=FILE      write a batched update to FILE
+     --only-write-batch=FILE like --write-batch but w/o updating destination
+     --read-batch=FILE       read a batched update from FILE
+     --protocol=NUM          force an older protocol version to be used
+     --iconv=CONVERT_SPEC    request charset conversion of filenames
+     --checksum-seed=NUM     set block/file checksum seed (advanced)
+     --noatime               do not alter atime when opening source files
+ -4, --ipv4                  prefer IPv4
+ -6, --ipv6                  prefer IPv6
+     --version               print version number
+(-h) --help                  show this help (-h is --help only if used alone)
+
+Use "rsync --daemon --help" to see the daemon-mode command-line options.
+Please see the rsync(1) and rsyncd.conf(5) man pages for full documentation.
+See http://rsync.samba.org/ for updates, bug reports, and answers
+rsync error: syntax or usage error (code 1) at main.c(1640) [Receiver=3.1.1]
+$ ^[[A                                                                                   
+Broadcast message from cs18c26@cec-workstation (somewhere) (Mon Feb 17 10:59:45
+                                                                               
+This is a ssh test message!!
+                                                                               
+exit
+Connection to 192.168.0.30 closed.
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/17-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/17-02$ gedit report
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/17-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/17-02$ gedit report
+
+** (gedit:4318): CRITICAL **: gedit_multi_notebook_set_active_tab: assertion `page_num != -1' failed
+^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/17-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/17-02$ gedit reportssh cs18c03@192.168.0.30[12Pgedit report
+^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/17-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/17-02$ gedit report
+^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/17-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/17-02$ gedit reportssh cs18c03@192.168.0.30[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/17-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/17-02$ sfpt cs18c03@192.168.0.2[K30
+No command 'sfpt' found, did you mean:
+ Command 'xfpt' from package 'xfpt' (main)
+ Command 'sftp' from package 'openssh-client' (main)
+sfpt: command not found
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/17-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/17-02$ sfpt cs18c03@192.168.0.30[1P cs18c03@192.168.0.30[1P cs18c03@192.168.0.30t cs18c03@192.168.0.30p cs18c03@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c03@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put report,[K.tx[Kext[K[K[K[K[K[Kt sample
+Uploading report to /home/cs18c03/sample
+report                                          0%    0     0.0KB/s   --:-- ETAreport                                        100% 2656     2.6KB/s   00:00    
+sftp> ls
+07-02             31-01             adhil             examples.desktop  sample            trial             
+sftp> cd sample
+Can't change directory: "/home/cs18c03/sample" is not a directory
+sftp> get samopl[K[K[Kple
+Fetching /home/cs18c03/sample to sample
+/home/cs18c03/sample                                                                                            0%    0     0.0KB/s   --:-- ETA/home/cs18c03/sample                                                                                          100% 2656     2.6KB/s   00:00    
+sftp> lcdc[K
+You must specify a path after a lcd command.
+sftp> lpwd
+Local working directory: /home/s4c1/ceccs18c03/cs232/17-02
+sftp> lcd
+You must specify a path after a lcd command.
+sftp> lcd /
+Invalid command.
+sftp> lcd/[K[K[K[K;lcd-
+Invalid command.
+sftp> ;lcd-[K[K[K[K[Kl[Klmkdir tri
+sftp> lcd tri
+sftp> p[Klpwd
+Local working directory: /home/s4c1/ceccs18c03/cs232/17-02/tri
+sftp> mget -[K
+You must specify at least one path after a mget command.
+sftp> man mget
+Invalid command.
+sftp> del[K[K[Kls
+07-02             31-01             adhil             examples.desktop  sample            trial             
+sftp> scp cs18c03 @192.168.0.30 temp[K[K[K[Ksample
+Invalid command.
+sftp> scp cs18c03@192.168.0.30 sample[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls[K[Kdele[K[K[K[Kcs[Kp[K[Ksamplw[Ke co[Kp tr
+Invalid command.
+sftp> sample cp tr[8Gcp cs18c03@192.168.0.30 sample[7Gls[Kman mget[8Gget[Klpwdcd tri[8G[3@mkdir tri[7G;lcd-[K[7Glcd/[K[Kpwdcd[Kget sample[7G[Pcd[16G[7Gls[Kput report sample[1@s [1@a [1@m [1@p [1@l [1@e  sample23
+stat reportsample: No such file or directory
+sftp> put reportsample sample23[1@ ssample sa
+stat report: No such file or directory
+sftp> put report sample sample23pl[Ps[Ps[Ps[Ps[Ps[Ps[Ps
+stat sample: No such file or directory
+sftp> put sample sample23[11G[7@report s[33G[Ps[Ps[Ps[Ps[Ps[Ps[Pa[Ps[1@ s
+stat report: No such file or directory
+sftp> put report sample23[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Klls
+sftp> lcd ..
+sftp> lld[Ks
+report	report~  report sample	sample	temp.txt  tri  work.txt
+sftp> llscd ..[8Gls[Kput report sample23t[P [P [P [P [P [P [1@s [1@a [1@m [1@p [1@l [1@e  [1@ s
+Uploading sample to /home/cs18c03/sample23
+sample                                                                                                          0%    0     0.0KB/s   --:-- ETAsample                                                                                                        100% 2656     2.6KB/s   00:00    
+sftp> ls
+07-02             31-01             adhil             examples.desktop  sample            sample23          trial             
+sftp> delete sample23
+Invalid command.
+sftp> delete sample23 s[1@rs[1@ms[1@-s[Ps[1@/s[Ps
+Invalid command.
+sftp> delete rmsample23 [Pr[Pr[Pr[Pr[Pr[Pr[Prrm[1@ s
+Removing /home/cs18c03/sample23
+sftp> ls
+07-02             31-01             adhil             examples.desktop  sample            trial             
+sftp> exit[K[K[K[Kbye
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/17-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/17-02$ sftp cs18c03@192.168.0.30pt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgedit report
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/17-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/17-02$ ^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/17-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/17-02$ gedit reportsftp cs18c03@192.168.0.30[13Pgedit report
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/17-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/17-02$ exit
+exit
+
+Script done on Monday 17 February 2020 11:55:23 AM IST
