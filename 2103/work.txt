@@ -1,0 +1,29 @@
+Script started on 2020-03-21 13:48:28+0530
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;1inux@newuser: ~/ceccs18c03/cs232/2103[01;32m1inux@newuser[00m:[01;34m~/ceccs18c03/cs232/2103[00m$ gedit addition.pl
+]0;1inux@newuser: ~/ceccs18c03/cs232/2103[01;32m1inux@newuser[00m:[01;34m~/ceccs18c03/cs232/2103[00m$ perl addition.pl
+Enter the numbers
+12
+3
+Sum = 15
+]0;1inux@newuser: ~/ceccs18c03/cs232/2103[01;32m1inux@newuser[00m:[01;34m~/ceccs18c03/cs232/2103[00m$ perl addition.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.plf.pla.plc.plt.plo.plr.pli.pla.pll.pl[C[C[C
+]0;1inux@newuser: ~/ceccs18c03/cs232/2103[01;32m1inux@newuser[00m:[01;34m~/ceccs18c03/cs232/2103[00m$ gedit factorial.pl[1P factorial.pl[1P factorial.pl[1P factorial.pl[1P factorial.pl[1P factorial.plp factorial.ple factorial.plr factorial.pll factorial.pl[C[C[C[C[C[C[C[C[C[C[C[C[C
+Enter a number: 5 2
+Factorial of the num is: 2
+]0;1inux@newuser: ~/ceccs18c03/cs232/2103[01;32m1inux@newuser[00m:[01;34m~/ceccs18c03/cs232/2103[00m$ perl factorial.pl
+Enter a number: 5
+Factorial of the num is: 120
+]0;1inux@newuser: ~/ceccs18c03/cs232/2103[01;32m1inux@newuser[00m:[01;34m~/ceccs18c03/cs232/2103[00m$ perl factorial.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pli.plb.pl[C[C[C
+]0;1inux@newuser: ~/ceccs18c03/cs232/2103[01;32m1inux@newuser[00m:[01;34m~/ceccs18c03/cs232/2103[00m$ gedit fib.plperl factorial.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.plf.pli.plb.pl[C[C[C
+Enter the range:5
+0
+1
+1
+2
+3
+]0;1inux@newuser: ~/ceccs18c03/cs232/2103[01;32m1inux@newuser[00m:[01;34m~/ceccs18c03/cs232/2103[00m$ exit
+exit
+
+Script done on 2020-03-21 13:51:21+0530

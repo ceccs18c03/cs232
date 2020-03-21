@@ -1,0 +1,46 @@
+CEC CS 18 C03
+ADHIL SHAHANAD K K
+--------------------------------
+#1: Perl
+---------------------------------
+Program Name:
+----------------------------
+1.PROGRAM TO FIND THE SUM OF TWO NUMBERS
+
+2.PROGRAM TO FIND THE FACTORIAL OF A NUMBER
+
+
+3.PROGRAM TO FIND THE FIBINOCCI SERIES OF A NUMBER
+
+
+
+------------------------------------
+
+#Output
+-------------------------
+1.Enter the numbers
+  12
+  3
+  Sum = 15
+
+2.Enter a number: 2
+  Factorial of the num is: 2
+  Enter a number: 5
+  Factorial of the num is: 120
+
+
+3.Enter the range:5
+  0
+  1
+  1
+  2
+  3
+
+
+-------------------------------------
+
+Remarks if any:
+	
+	
+
+-------------------------------------
