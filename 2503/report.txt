@@ -1,0 +1,183 @@
+CEC CS 18 C03  25-03-2020
+
+ADHIL SHAHANAD K K
+ 
+--------------------------------
+#1: Aim/task
+---------------------------------
+Command/Shell script/Program name
+
+Package management t8(1) 
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+*The various steps are shown below:
+	
+	#To upgrade local package 
+         pkg upgrade
+	
+
+        # To search a package (searching git) 
+          pkg search git
+
+        # To install git 
+          pkg apt-get install
+ 
+        #To remove git
+          apt remove git
+
+       
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+
+ 1.upgrade
+
+$ pkg upgrade
+Ign:1 https://main.termux-mirror.ml stable InRelease
+Ign:3 https://dl.bintray.com/grimler/game-packages-24 games InRelease
+Hit:2 https://main.termux-mirror.ml stable Release
+Ign:4 https://dl.bintray.com/grimler/science-packages-24 science InRelease
+Get:6 https://dl.bintray.com/grimler/game-packages-24 games Release [5344 B]
+Hit:6 https://dl.bintray.com/grimler/game-packages-24 games Release
+Get:8 https://dl.bintray.com/grimler/science-packages-24 science Release [5348 B]
+Hit:8 https://dl.bintray.com/grimler/science-packages-24 science Release
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+Calculating upgrade... Done
+The following package was automatically installed and is no longer required:
+  pcre2
+Use 'apt autoremove' to remove it.
+The following packages will be upgraded:
+  krb5
+1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 829 kB of archives.
+After this operation, 12.3 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 https://main.termux-mirror.ml stable/main aarch64 krb5 aarch64 1.18 [829 kB]
+Fetched 829 kB in 15s (54.3 kB/s)
+(Reading database ... 4250 files and directories currently installed.)
+Preparing to unpack .../archives/krb5_1.18_aarch64.deb ...
+Unpacking krb5 (1.18) over (1.17.1-2) ...
+Setting up krb5 (1.18) ...
+Processing triggers for man (1.14.5-1) ...
+$
+
+
+
+2.search
+
+
+$ pkg search git
+Sorting... Done
+Full Text Search... Done
+blackbox/stable 1.20181219 all
+  Safely store secrets in Git/Mercurial/Subversion
+
+dcraw/stable 9.28.0-1 aarch64
+  Raw digital camera images decoding utility
+
+git/stable 2.26.0 aarch64
+  Fast, scalable, distributed revision control system
+
+git-crypt/stable 0.6.0-1 aarch64
+  Enables transparent encryption and decryption of files for a git repository
+
+git-delta/stable 0.0.17-1 aarch64
+  A syntax-highlighter for git and diff output
+
+git-gitk/stable 2.26.0 aarch64
+  Git repository browser
+
+git-gui/stable 2.26.0 aarch64
+  A graphical interface to Git
+
+git-lfs/stable 2.10.0 aarch64
+  Git extension for versioning large files
+
+gitea/stable 1.11.3 aarch64
+  Git with a cup of tea, painless self-hosted git service
+
+hub/stable 2.14.2 aarch64
+  Command-line wrapper for git that makes you better at GitHub
+
+libgit2/stable 0.99.0 aarch64
+  C library implementing Git core methods
+
+texlive-langitalian/stable 20190410-2 all
+  Texlive's collection-langitalian
+
+tig/stable 2.5.0 aarch64
+  Ncurses-based text-mode interface for git
+
+vcsh/stable 1.20151229 all
+  Config manager based on Git
+
+$ 
+
+
+
+3.Install
+
+
+
+$ apt-get install git
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  git
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 3271 kB of archives.
+After this operation, 19.3 MB of additional disk space will be used.
+Get:1 https://main.termux-mirror.ml stable/main aarch64 git aarch64 2.26.0 [3271 kB]
+Fetched 3271 kB in 53s (60.7 kB/s)
+Selecting previously unselected package git.
+(Reading database ... 4251 files and directories currently installed.)
+Preparing to unpack .../git_2.26.0_aarch64.deb ...
+Unpacking git (2.26.0) ...
+Setting up git (2.26.0) ...
+Processing triggers for man (1.14.5-1) ...
+$
+
+4.Remove
+
+
+$ apt remove git
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  pcre2
+Use 'apt autoremove' to remove it.
+The following packages will be REMOVED:
+  git
+0 upgraded, 0 newly installed, 1 to remove and 1 not upgraded.
+After this operation, 19.2 MB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... 4680 files and directories currently installed.)
+Removing git (2.25.2) ...
+Processing triggers for man (1.14.5-1) ...
+$
+
+
+
+
+-------------------
+Remarks if any:
+
+  *git searched,installed and removed
+
+
+
+-------------------------------------
+-------------------------------------
